@@ -1,0 +1,56 @@
+body {
+	width:3843px;
+	margin: 0;
+	overflow-y: hidden;
+	background: yellow;
+}
+
+.background {
+	position: relative;
+	bottom: 130px;
+	width: 100%;
+}
+.top {
+	position: absolute;
+	top: 50px;
+	left: 30px;
+	z-index: 5;
+}
+.navcontainer {
+	width:100%;
+	height: 50px;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	background: #E05B6A;
+}
+/*.navbuttons {
+	width: 213.3px;
+	height: 100%;
+	float: left;
+	margin: 0;
+}
+.navbuttons.one {
+
+}
+.navbuttons.two {
+	background: red;
+}
+.navbuttons.three {
+	background: green;
+}*/
+.gif {
+    position: fixed;
+    bottom: 60px;
+    left: 30px;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
