@@ -1,13 +1,12 @@
 body {
-	width:3843px;
+	width:2560px;
 	margin: 0;
 	overflow-y: hidden;
-	background: yellow;
 }
 
 .background {
 	position: relative;
-	bottom: 130px;
+	bottom: 160px;
 	width: 100%;
 }
 .top {
