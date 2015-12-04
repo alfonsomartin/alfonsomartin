@@ -1,0 +1,177 @@
+/* CSS Document */
+body {
+	font-family: "ff-tisa-sans-web-pro";
+}
+#container {
+	margin: 0 auto;
+	margin-top:40px;
+	width: 1017px;
+}
+.head {
+	background-color:#C0272D;
+	font-size:48px;
+	padding:30px;
+	color:white;
+	position: relative;
+	font-family: "ff-tisa-web-pro";
+}
+.nav {
+	font-size:24px;
+	color:white;
+	float:right;
+}
+.nav-buttons {
+	float:right;
+	margin-right:20px;
+	width:80px;
+	height:80px;
+	background-image: url(button-home2.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	cursor:pointer;
+}
+.nav-buttons:hover{
+	background-position:bottom;
+}
+.nav-buttons2 {
+	float:right;
+	margin-right:20px;
+	width:80px;
+	height:80px;
+	background-image: url(buttin-ABOUT2.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	cursor:pointer;
+}
+.nav-buttons2:hover{
+	background-position:bottom;
+}
+.box {
+	float: left;
+	position:relative;
+	margin:10px 0px 0px 10px;
+}
+h1 {
+	font-size:24px;
+	line-height:1.4em;
+	font-family: "ff-tisa-web-pro";
+	font-style:italic;
+	font-weight:400;
+	color:white;
+}
+h2 {
+	font-size:24px;
+	line-height:1.4em;
+	font-family:"ff-tisa-web-pro";
+}
+.image-box {
+	width: 242px;
+	height:242px;
+	position: relative; 
+}
+.image-box img {
+	width: 100%;
+	height: auto;
+	display:block; 
+}
+.inner-box {
+	background: #C0272D;
+	width: 162px;
+	height: 40px;
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color:white;
+	font-size:21px;
+	text-align:center;
+	padding: 40px;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.button-box {
+	width: 80px;
+	height: 60px;
+	background: red;
+	position: relative;
+	cursor: pointer;
+	margin-top:200px;
+}
+.long-box {
+	width: 494px;
+	height: 242px;
+	background-image: url(dogprofiles/corgi-flop.gif);
+	display:block;
+	float: left;
+	margin:10px 0px 0px 10px;
+}
+.long-box2 {
+	width: 494px;
+	height: 242px;
+	background-color:#C0272D;
+	float: left;
+	margin:10px 0px 0px 10px;
+
+}
+.big-box {
+	width: 454px;
+	height: 454px;
+	background-color: #636363;
+	float: left;
+	margin:10px 0px 0px 10px;
+	padding:20px;
+	color: white;
+}
+
+/*]SLIDESHOW*/
+#container-slideshow {
+	width: 957px;
+	margin: 0 auto;
+	margin-top:30px;
+}
+/*THIS IS A CSS TABLE WHICH CONTAINS THE SLIDESHOW*/
+.table-container {
+	display: table;
+	margin-left:20px;
+	margin-top:40px;
+}
+.table-nav {
+	width: 50px;
+	height: 75px;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+.table-cell-left {
+	width: 359px;
+	display: table-cell;
+	padding:0 0 0 20px;
+}
+.table-cell-right {
+	width: 358px;
+	padding:0 40px 0 40px;
+	display: table-cell;
+	vertical-align: top;
+}
+.text-width {
+	width: 359px;
+}
+p {
+	font-size:16px;
+	line-height:1.5em;
+}
+.likescolor {
+	color:#C0272D;
+}
+.footer {
+	background-color:#C0272D;
+	font-size:14px;
+	padding:30px;
+	color:white;
+	position: relative;
+	margin-top:50px;
+	text-align: center;
+	font-weight:200;
+}
+
+

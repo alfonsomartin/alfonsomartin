@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<link href="../assignment6/dogs.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
+<script>
+$(document).ready(function() {
+
+$(".image-box").hover(function () {
+	var thisDiv = $(this).attr("id");
+  $('#div-'+thisDiv).slideToggle("fast");
+});
+});
+</script>
+</head>
+
+<body>
+<div id="box-1" class="image-box">
+  <div id="div-box-1" class="inner-box"></div>
+</div>
+
+<div id="box-2" class="button-box">
+  <div id="div-box-2" class="inner-box"></div>
+</div>
+</body>
+</html>
