@@ -1,0 +1,108 @@
+#container {
+	width: 1017;
+	margin: 0 auto;
+	background-image: url(day-of-the-dead-wallpaper-gold-black-%5B3%5D-19010-p.jpg);
+	background-position:center;
+}
+#inner-container {
+	background-color: #FFFFFF;
+	width: 957px;
+	padding: 30px;
+	margin: 0 auto;
+}
+body {
+	font-size: 16px;
+	line-height: 1.6em;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-family: "ltc-goudy-ornate";
+	font-size: 48px;
+	text-align: center;
+}
+.navigation-horizontal {
+	float: left;
+	width: 319px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: black;
+	font-size:18px;
+}
+.navigation-horizontal:hover {
+	color: red;
+	font-size:24px;	
+}
+h2 {
+	font-family: "ltc-goudy-ornate";
+	font-size: 36px;
+}
+.column-body {
+	float: left;
+	margin-top:20px;
+	margin-left: 20px;
+	width: 458px;
+	
+}
+.column-body2 {
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	
+}
+.column-body3 {
+	float: left;
+	margin-left: 20px;
+	margin-top:40px;
+}
+.footer {
+	text-align:center;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: -25px;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <title>CCA Interactive One | Advanced Slideshow</title>
+<!--
+PUT JAVASCRIPT REFERENCE HERE--> <script type="text/javascript" src="scripts/jquery-1.9.1.js"></script> <script type="text/javascript" src="scripts/jquery.cycle2.js"></script>
+
+#container-slideshow {
+	width: 957px;
+	margin: 0 auto;
+	margin-top:30px;
+}
+.slide-nav {
+	color: #666;
+	text-decoration: none;
+}
+.slide-nav:hover {
+	color: red;
+}
+/*THIS IS A CSS TABLE WHICH CONTAINS THE SLIDESHOW*/
+.table-container {
+	display: table;
+	margin-left:20px;
+	margin-top:40px;
+}
+.table-nav {
+	width: 50px;
+	height: 75px;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	background-image: url(IMAG0006-3.png);
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.table-cell-left {
+	width: 359px;
+	display: table-cell;
+	padding:0 0 0 20px;
+}
+.table-cell-right {
+	width: 398px;
+	padding:0 20px 0 20px;
+	display: table-cell;
+	vertical-align: top;
+}

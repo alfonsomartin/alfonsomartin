@@ -1,0 +1,73 @@
+/*font-family:'Amadeo W01';
+font-family:'Amadeo W01 SC';
+font-family:'Amadeo W01 Bold';
+font-family:'Amadeo W01 Bold SC';
+font-family:'Belinda W00 Regular';
+font-family:'Bell MT W01';*/
+
+body {
+	font-family:'Bell MT W01';
+	font-size: 14px;
+	line-height: 1.4em;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+h1 {
+	font-weight: normal;
+	font-family:'Bell MT W01';
+	color: #000000;
+	text-align: center;
+	font-size: 12px;
+}
+h2 {
+	font-weight: normal;
+	font-family:'Bell MT W01';
+	color: #000000;
+	text-align: center;
+}
+.page-number {
+	font-size: 10px;
+}
+#navigation-horizontal {
+	list-style: none;
+	padding: 20px 0 0 0;
+	border-top:1px solid black;
+}
+#navigation-horizontal li {
+	float: right;
+	border-left: 1px solid #FFFFFF;
+}
+#navigation-horizontal a {
+	text-decoration: none;
+	font-size: 12px;
+	padding: 8px 10px;
+	color: black;
+	background-color: #BEBEBE;
+}
+#navigation-horizontal a:hover {
+	color: white;
+	background-color: pink;
+}
+.quote-1 {
+	font-family:'Belinda W00 Regular';
+	color: white;
+	font-size:24px;
+	line-height: 1.4em;
+	background-color:#EA8F90;
+	width:300px;
+	float:left;
+	padding:30px;
+	margin: 0 .25em .25em 0;
+}
+.quote-2 {
+	font-family:'Belinda W00 Regular';
+	color:#EA8F90;
+	font-size:24px;
+	line-height: 1.4em;
+	background-color:white;
+	width:300px;
+	float:left;
+	margin: 1em .5em 1em 0;
+}
