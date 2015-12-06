@@ -6,10 +6,9 @@ $(document).ready(function(){
 
 });
 
-
 // PRESS BUTTON MENU POP UP
 $(document).ready(function(){
-    $("button").click(function(){
+    $(".button").click(function(){
         $(".menu").fadeIn()
     });
 });
@@ -22,7 +21,7 @@ $(document).ready(function(){
 });
 
 // PIDGEON GLIDER
-$( "button" ).click(function() {
+$( ".button" ).click(function() {
     $("#pidgeon").animate({left: '+=100', bottom: '+=100'}, 800);
 });
 
@@ -33,7 +32,7 @@ $(document).ready(function(){
 });
 
 // SPIN FLY
-$( "button" ).click(function() {
+$( ".button" ).click(function() {
     $("#spinfly").animate({left: '+=100', top: '+=100'}, 800);
 });
 
@@ -44,7 +43,7 @@ $(document).ready(function(){
 });
 
 // ROLLIO
-$( "button" ).click(function() {
+$( ".button" ).click(function() {
     $("#rollio").animate({bottom: '+=100'}, 800);
 });
 
@@ -56,7 +55,7 @@ $(document).ready(function(){
 
 
 // ROLLER BEAR
-$( "button" ).click(function() {
+$( ".button" ).click(function() {
     $("#rollerbear").animate({right: '+=100', bottom: '+=100'}, 800);
 });
 
@@ -68,7 +67,7 @@ $(document).ready(function(){
 
 
 // CLOUD RIDER
-$( "button" ).click(function() {
+$( ".button" ).click(function() {
     $("#cloudrider").animate({right: '+=100', top: '+=100'}, 800);
 });
 
@@ -76,6 +75,14 @@ $(document).ready(function(){
     $(".exit").click(function(){
         $("#cloudrider").animate({right: '-=100', top: '-=100'}, 800);
     });
+});
+
+// SMOOTH SCROLL RIGHT
+$('a').click(function(){
+    $('html, body').animate({
+        scrollLeft: $( $(this).attr('href') ).offset().left
+    }, 500);
+    return false;
 });
 
 
