@@ -651,8 +651,13 @@ h4 {
 .bottom a {
     color: white;
     text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
 
 }
+.bottom a:hover {
+    color: #77B7E5; 
+}
+
 .bottoma {
     text-align: left;
     z-index: 20;

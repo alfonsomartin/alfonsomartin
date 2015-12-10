@@ -38,7 +38,6 @@ body {
 	height: 100%;
 	display: none;
 	text-align: center;
-	font-family: 'Muli', sans-serif;
 	line-height: 3.2em;
 }
 .menu a {
@@ -67,6 +66,7 @@ body {
 	cursor: pointer;
 	text-align: center;
 	font-size: 42px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 .words img {
 	width: 150px;
@@ -109,7 +109,11 @@ body {
 	/*	background:rgba(214, 71, 16, 0.5);*/
 }
 h2 {
-	margin-left: 70px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	margin-left: 60px;
+	font-weight: normal;
+
 }
 .button {
 	position: absolute;
@@ -126,6 +130,7 @@ h2 {
 	width: 50px;
 	height: 50px;
 }
+
 /******************************************** VIDEO SECTIONS*/
 .blurb {
  	position: absolute;
@@ -183,14 +188,14 @@ h2 {
 .point-button {
 	position: absolute;
 	top: 300px;
-	right: 0px;
+	right: 20px;
 	width: 40px;
 	height: 88px;
-	opacity: 0.1;
+	opacity: 0.5;
 	transition: .2s ease-in;
 }
 .point-button:hover {
-	opacity: 0.5;
+	opacity: 1;
 }
 .point-container {
 	position: absolute;
@@ -209,6 +214,7 @@ h2 {
 }
 .point-container.special2 {
 	left:4512px;
+	z-index: 7;
 }
 .point-container.special3 {
 	width: 1920px;
@@ -250,13 +256,16 @@ h2 {
     width: 190px;
     height: 80px;
 }
+.link.resources:hover {
+	background: red;
+	content: url(../images/green-background.png);
+}
 .links.logo {
     top: 230px;
     right: 560px;
     width: 270px;
     height: 100px;
 }
-
 .point-container.two {
 	left:1280px;
 }
@@ -276,6 +285,10 @@ h2 {
 }
 .point-container.event-page2 {
 	left:5120px;
+}
+.point-container.characters {
+	left: 5736px;
+	z-index: 7;
 }
 .point-container.six {
 	left:6400px;
