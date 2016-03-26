@@ -29,14 +29,6 @@ body {
 	z-index: -1;
 }
 
-.bigCircle.process {
-	background: rgba(242, 206, 233, 0.7); 
-}
-
-.bigCircle.big {
-	background: rgba(86, 60, 232, 0.7); 
-}
-
 .lilCircle {
 	width: 80px;
 	height: 80px;
@@ -49,23 +41,6 @@ body {
 	cursor: pointer;
 	transition: all .3s ease-in-out;
 	z-index: 5;
-}
-
-.home {
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-/*	border: 1px black solid;*/
-	position: fixed;
-	background: rgba(131,224,224,0.5);
-	left: 25px;
-	top: 25px;
-	cursor: pointer;
-	transition: all .3s ease-in-out;
-	z-index: 5;
-}
-.home:hover {
-	transform: scale(1.5);
 }
 
 .lilCircle:hover {
@@ -142,7 +117,7 @@ button:hover {
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
-	margin: 180px auto 300px auto;
+	margin: 180px auto 180px auto;
 	text-align: center;
 	font-size: 200px;
 	color: white;
@@ -170,9 +145,10 @@ p {
 	font-size: 18px;
 	margin: 500px auto;
 	line-height: 1.4em;
-	background: rgba(131,224,224,0.5);
-	width: 450px;
+	height: 450px;
 	padding: 15px;
+	border-radius: 50%;
+	text-align: center; 
 }
 
 .scale {
@@ -189,21 +165,19 @@ p {
     margin: 0 auto;
     text-align: center;
 }
-.container2 {
-    width: 1200px;
-    margin: 30px auto;
-    text-align: center;
-}
- .hey {
- 	position: relative;
- 	left:-210px;
- 	top: 10 px;
- 	width: 1600px;
+
+.hey {
+    position: relative;
+    left: -365px;
+    width: 1600px;
+    margin-bottom: 225px; 
  }
-.hey.there {
-    left: -200px;
+
+.there {
+	position: relative;
+    left: -330px;
     width: 1560px;
-    top: -140px;
+    margin-bottom: 225px;
 }
 
 .pics {
@@ -223,7 +197,7 @@ h2 {
 	line-height: 1.8em;
 	font-weight: normal;
 	margin: -5px auto;
-	background: rgba(131,224,224,0.5);
+	text-align: center;
 	width: 450px;
 	padding: 10px;
 	border-radius: 3%%;
@@ -283,6 +257,7 @@ h2 a:hover {
 	border: 1px solid black !important;
 	-webkit-text-stroke: 1.5px black;
 }
+
 
 
 /*.style-three {
