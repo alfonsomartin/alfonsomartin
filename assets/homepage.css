@@ -8,10 +8,14 @@ body {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 96px;
 	color: black;
 	line-height: 1.2em;
+	margin: 0 auto;
+	text-align: center;
 }
+
+
 p {
 	color: white;
 	font-size: 18px;
@@ -20,7 +24,7 @@ p {
 
 .container {
 	margin: 0 auto;
-	position: 
+	position: relative;
 }
 
 .work {
