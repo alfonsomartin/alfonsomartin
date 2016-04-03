@@ -1,21 +1,38 @@
 body {
 	margin: 0;
+	background-color: #EFE4CF;
+	text-align: center;
 }
-
+h4 {
+	font-family: sans-serif;
+	font-size: 108px;
+}
 .nav {
 	width: 100%;
 	margin: 0 auto;
 	display: block;
 }
 .home {
-	margin: 20px;
+	margin: 10px;
 	display: inline-block;
 }
+
 .other {
 	display: inline-block;
 	float: right;
-	margin: 20px;
-
+	margin: 10px;
+}
+.other a {
+	color: black;
+	text-decoration: none;
+}
+.other a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.other a:active {
+	color: white;
+	text-decoration: underline;
 }
 .container {
 	width: 1200px;
@@ -24,46 +41,83 @@ body {
 	display: block;
 }
 .work {
-	background: pink;
-	width: 300px;
-	height: 300px;
-	margin: 30px;
-	padding: 18px;
+	background: white;
+	width: 350px;
+	height: 250px;
+	margin: 23px;
+	display: inline-block;
+	position: relative;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	-o-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-khtml-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+.work img {
+	width: 350px;
+	height: 250px;
 	display: inline-block;
 }
-
+.work:hover h2{
+	opacity: 1;
+	color: white
+}
+.work:hover {
+	background: black;
+}
+.work:hover img {
+	opacity: 0;
+}
+h2:hover {
+	text-decoration: underline;
+}
 h1 {
 	font-size: 24px;
-	font-family: Arial, sans-serif;
+	font-family: sans-serif;
 }
-img {
-	width: 50%;
-	height: 50%;
-	position: relative;
-	left: 25%; 
+h2 {	
+	font-size: 24px;
+	font-family: sans-serif;
+	text-decoration: none;
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -70%);
+	opacity: 0;
+	-o-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-khtml-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
 }
+
+
 
 /* Media Queries*/
 @media screen and (max-width: 1024px) {
   .container { width:944px; }
-  .work { margin: 30px;}
+  .work { margin: 23px;}
 }
 
 @media screen and (max-width: 768px) {
   .container { width:688px; }
-  .work { margin: 30px;}
+  .work { margin: 23px;}
 
 }
 
 @media screen and (max-width: 600px) {
   .container {width: 520px;}
-  .work { margin: 30px;}
+  .work { margin: 23px;}
   h1 {font-size: 24px;}
 }
 
 @media screen and (max-width: 480px) {
   .container {width: 400px;}
-  .work { margin:30px;}
+  .work { margin:23px;}
   h1 {font-size: 24px;}
 
 }
