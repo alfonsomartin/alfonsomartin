@@ -48,6 +48,7 @@ h1 {
 .specific h1 {
 	width: 480px;
 	font-size: 48px;
+	line-height: 1;
 }
 .right {
 	float: right;
