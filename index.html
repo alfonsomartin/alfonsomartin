@@ -1,74 +1,28 @@
 <!DOCTYPE html>
-<html ang="en">
 <head>	
 <link type="text/css" rel= "stylesheet" href= "assets/homepage.css">	
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
 <title>Alfonso Martin</title>
-<style>	
 
-		.list-one {
-			font-family: sans-serif;
-			font-size: 60px;
-			font-weight: bold;
-			color: orange;
-		}
-</style>	
-	<script src="https://ajax.googleapis.
-com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-
-			// list one content
-			var one = [
-				"WEBSITE COMING SOON",
-				"WEBSITE UNDER CONSTRUCTION",
-				"WEBSITE IN PROGRESS",
-				"WEBSITE COMING SOON",
-				"WEBSITE UNDER MAINTENANCE",
-				"WEBSITE STILL COOKING",
-				"WEBSITE UNDER CONSTRUCTION"
-
-			];
-
-
-
-			// This is a very common randomizing function.
-			// It takes a list (array) and returns one at random.
-			function select_random(x){
-				y = x[Math.floor(Math.random()*x.length)];
-				return y;
-			}
-
-			function generate(){
-
-				// Select a random item from each list
-				var selected_one = select_random(one);
-			
-
-				// Take the selected (random) item from list and make it visible
-				$('.list-one').html(selected_one);
-			
-
-			}
-
-			$('button').click(function(){
-				generate();
-			});
-
-			generate();
-			
-		});
-
-	</script>
 </head>
 
 <body>
-<h4>Alfonso Martin
-<br>Graphic Design / Illustration / Web</h4>
-<div class="list-one"></div>
-<h1>Download PDF Portfolio <a href="assets/portfolio.pdf">here</a></h1>
-<h1>Download Resume <a href="assets/Alfonso Resume 2016.pdf">here</a></h1>
-<button>Press Me</button>
+<div class="temp-container">
+
+<h4><a href="http://cargocollective.com/alfonsomartin">Alfonso Martin</a></h4>
+
+<h1>Graphic Design / Illustration / Web</h1>
+
+<div class="page"><a href="assets/portfolio.pdf"><img src="assets/images/me-04.png"/></a><h2>PORTFOLIO</h2></div>
+
+<div class="page"><a href="assets/Alfonso Resume 2016.pdf"><img src="assets/images/me-05.png"/></a><h2>RESUME</h2></div>
+
+<div class="page"><a href="assets/Who is Harrison Preview.pdf"><img src="assets/images/me-03.png"/></a><h2>WHO IS HARRISON?</h2></div>
+
+<div class="footer"></div>
+</div>
+
+
 
 <!-- <div class="nav">
 	<div class="home"><a href="index.html"><h1>AM</h1></a></div>
