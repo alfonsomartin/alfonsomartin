@@ -14,19 +14,23 @@ a {
 }
 
 .container {
-    width: 900px;
-    margin: 170px auto;
+    width: 40%;
     text-align: center;
+}
+.circleContainer {
+	width: 290px;
+	height: 290px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 .bigCircle {
 	width: 290px;
 	height: 290px;
 	border-radius: 50%;
 /*	border: 1px black solid;*/
-	position: fixed;
 	background: rgba(131,224,224,0.5);
-	left: 489px;
-	top: 153px;
 	z-index: -1;
 	transition: all .4s ease-in-out;
 }
