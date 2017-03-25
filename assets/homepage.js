@@ -8,7 +8,7 @@ $('a').click(function(){
 
 $(document).on("scroll", function() {
 
-	if($(document).scrollTop()>300) {
+	if($(document).scrollTop()>200) {
 		$(".home").removeClass("large").addClass("small");
 	} else {
 		$(".home").removeClass("small").addClass("large");
