@@ -92,7 +92,7 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 4;
+    z-index: 1;
 }
 
 .home img {
@@ -237,7 +237,7 @@ h2 {
 	font-weight: 600;
 	text-decoration: underline;
 	color: #ffffff;
-	padding-top: 160px;
+	padding-top: 100px;
 	margin: 0px;
 }
 
@@ -300,13 +300,13 @@ h3 {
 }
 
 @media screen and (max-width: 480px) {
-  .home.large { width: 398px; height: 239.75px; top: 45%;}
+  .home.large { width: 288px; height: 269.75px; top: 45%;}
   .home.small { width: 198px; height: 139.75; top: 10%;}
-  .link { font-size: 36px;}
+  .link { font-size: 28px;}
   .newpage.two {height: 700px;}
   .newpage.three {height: 2500px;}
   .newpage.four {height: 2500px;}
-  .newpage.five {height: 700px;}
+  .newpage.five {height: 750px;}
   .thumbnail { float: none; width: 100%; margin-right: 0;}
   h2 {font-size: 48px}
   h3 {font-size: 24px}
