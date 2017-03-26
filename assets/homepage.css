@@ -309,12 +309,11 @@ h2 {
 /* Media Queries*/
 @media screen and (max-width: 2800px) {
   .link { font-size: 48px;}
-  .home.large { width: 828px; height: 147px; top: 20%;}
+  .home.large { width: 838px; height: 157px; top: 20%;}
   .newpage.three {height: 1500px;}
   .newpage.four {height: 1500px;}
 
 }
-
 
 @media screen and (max-width: 2000px) {
   .link { font-size: 48px;}
