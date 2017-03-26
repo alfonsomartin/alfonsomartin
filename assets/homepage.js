@@ -16,6 +16,28 @@ $(document).on("scroll", function() {
 	
 });
 
+ var images = ['am333-1.png','am333-2.png','am333-3.png'];
+
+    $('<img class="disappear" src="assets/images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('.home');
+
+
+var $logo = $('.disappear');
+$(document).scroll(function() {
+    $logo.css({display: $(this).scrollTop() > 200? "none":"block"});
+});
+
+
+
+// $(document).on("scroll", function() {
+
+// 	if($(document).scrollTop()>200)
+// 		$( ".disappear" ).toggle( "slow", function() {
+//     // Animation complete.
+//   });
+// });
+
+
+
 // $(document).on("scroll", function() {
 
 // 	if($(document).scrollTop()>600) {
@@ -23,3 +45,4 @@ $(document).on("scroll", function() {
 // 	}
 	
 // });
+

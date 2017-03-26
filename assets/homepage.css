@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	background-color: black;
+	background-color: black ;
 }
 * {
 	box-sizing: border-box;
@@ -79,31 +79,29 @@ body {
 .newpage {
 	width: 100%;
 	height: 1200px;
+	background-color: black;
 }
 
 /*HOME PAGE-------------------------------------------------*/
 .newpage.one {
-	height: 1200px;
-	margin-top: 150px auto;
 	background-color: black;
 }
 .home {
 	position: relative;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 4;
 }
 
 .home img {
 	width: 100%;
 }
 
-.home.large {
-	width:1038px;
-	height:732px;
-	position: relative;
-    top: 45%;
+.large {
+	width: 1088px; 
+	height: 248px;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%)
     -o-transition: 0.5s;
@@ -114,11 +112,11 @@ body {
 	transition: 0.5s;
 }
 
-.home.small {
-	width:248px;
-	height:78px;
+.small {
+	width:196px;
+	height:45px;
 	position: fixed;
-    top: 5%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%)
     -o-transition: 0.3s;
@@ -129,10 +127,29 @@ body {
 	transition: 0.3s;
 }
 
+.enter {
+	width: 200px;
+	height: 50px;
+	background: green;
+	position: absolute;
+	bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: tenso, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	text-decoration: none;
+	color: #ffffff;
+}
+.disappear {
+	display:block;
+}
 
 /*ABOUT-------------------------------------------------*/
 .newpage.two {
-	background-color: red;
+	background-color: black;
 	height: 1000px;
 }
 
@@ -166,28 +183,71 @@ h3 {
 
 /*WORK-------------------------------------------------*/
 .newpage.three {
-	background-color: blue;
+	background-color: black;
 	height: 1200px;
 }
 .works {
 	width: 90%;
 	height: 100%;
-	background-color: lime;
+	background-color: black;
 	position: relative;
 	padding-top: 120px;
 	margin: 0px auto;
 }
 
-.thumbnail {
-	width: 30%;
-	height: auto;
-	background-color: orange;
-	position: relative;
-	float:left;
-	padding: 0;
+.container {
+    position: relative;
+    width: 30%;
+    float:left;
+   	padding: 0;
 	margin-right: 5%;	
 	margin-top: 5%;
 }
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+  font-family: tenso, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+.text p {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+}
+
 .last {
 	margin-right: 0;
 }
@@ -195,35 +255,22 @@ h3 {
 
 /*SHOPS-------------------------------------------------*/
 .newpage.four {
-	background-color: green;
+	background-color: black;
 	height: 1200px;
 }
 
 .shops {
 	width: 90%;
 	height: 100%;
-	background-color: cyan;
+	background-color: black;
 	position: relative;
 	padding-top: 120px;
 	margin: 0px auto;
 }
 
-.thumbnail {
-	width: 30%;
-	height: auto;
-	position: relative;
-	float:left;
-	padding: 0;
-	margin-right: 5%;	
-	margin-top: 5%;
-}
-.last {
-	margin-right: 0;
-}
-
 /*CONTACT-------------------------------------------------*/
 .newpage.five {
-	background-color: red;
+	background-color: black;
 	height: 1000px;
 }
 
@@ -253,6 +300,9 @@ h3 {
 	color: #ffffff;
 	margin: 0px;
 	padding: 80px;
+}
+.contacting h3 {
+	text-align: center;
 }
 
 
@@ -284,30 +334,98 @@ h3 {
 */
 
 /* Media Queries*/
-@media screen and (max-width: 1200x) {
-  .container { width:944px; }
+@media screen and (max-width: 2800px) {
+  .link { font-size: 48px;}
+  .newpage.three {height: 1500px;}
+  .newpage.four {height: 1500px;}
+}
+
+
+@media screen and (max-width: 2000px) {
+  .link { font-size: 48px;}
+  .newpage.three {height: 1500px;}
+  .newpage.four {height: 1500px;}
+}
+
+@media screen and (max-width: 1280px) {
+  .home.large { width: 778px; height: 176px; top: 20%;}
+  .link { font-size: 40px;}
+  .newpage.three {height: 1100px;}
+  .newpage.four {height: 1100px;}
+}
+
+@media screen and (max-width: 1080px) {
+  .home.large { width: 778px; height: 176px; top: 20%;}
+  .link { font-size: 40px;}
+  .newpage.three {height: 1000px;}
+  .newpage.four {height: 1000px;}
+
 }
 
 @media screen and (max-width: 768px) {
+  .home.large { width: 628px; height: 146px; top: 35%;}
   .link { font-size: 40px;}
+  .newpage.three {height: 800px;}
+  .shops {padding-top: 80px}
+  .works {padding-top: 100px}
+  .newpage.four {height: 800px;}
+  h2 {font-size: 84px}
+  h3 {font-size: 54px}
 }
+
+
+@media screen and (max-width: 736px) {
+  .home.large { width: 488px; height: 110px; top: 10%;}
+  .link { font-size: 40px;}
+  .newpage.three {height: 800px;}
+  .shops {padding-top: 80px}
+  .works {padding-top: 100px}
+  .newpage.four {height: 800px;}
+  h2 {font-size: 84px}
+  h3 {font-size: 54px}
+}
+
+
+@media screen and (max-width: 680px) {
+  .home.large { width: 408px; height: 96px; top: 10%;}
+  .link { font-size: 40px;}
+  .newpage.three {height: 1000px;}
+  .newpage.four {height: 1000px;}
+
+}
+
 
 @media screen and (max-width: 600px) {
-  .home { width: 488px; height: 318px; top: 40%;}
+  .home.large { width: 188px; height: 318px; top: 40%;}
   .link { font-size: 40px;}
-  .parallax { min-height: 1775px;}
-  .newpage.one { height: 700px;}
+  .newpage { height: 700px;}
 }
 
-@media screen and (max-width: 480px) {
-  .home.large { width: 288px; height: 269.75px; top: 45%;}
-  .home.small { width: 198px; height: 139.75; top: 10%;}
+@media screen and (max-width: 480px) {	
+  .home.small { width: 139px; height: 32; top: 7%;}
+  .home.large {width: 348px; height: 85px; top: 40%;}
   .link { font-size: 28px;}
   .newpage.two {height: 700px;}
   .newpage.three {height: 2500px;}
   .newpage.four {height: 2500px;}
   .newpage.five {height: 750px;}
   .thumbnail { float: none; width: 100%; margin-right: 0;}
+  .container {float: none; width: 100%}
+  h2 {font-size: 48px}
+  h3 {font-size: 24px}
+}
+
+
+@media screen and (max-width: 320px) {	
+  .home.small { width: 139px; height: 32; top: 7%;}
+  .home.large {width: 288px; height: 65px; top: 35%;}
+  .link { font-size: 28px;}
+  .newpage.two {height: 700px;}
+  .newpage.three {height: 2500px;}
+  .newpage.four {height: 2500px;}
+  .newpage.five {height: 750px;}
+  .thumbnail { float: none; width: 100%; margin-right: 0;}
+  .container {float: none; width: 100%}
   h2 {font-size: 48px}
   h3 {font-size: 24px}
 }
