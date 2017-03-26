@@ -306,38 +306,10 @@ h2 {
 	text-align: center;
 }
 
-
-
-/*.parallax {
-*/    /* The image used */
-/*    background-image: url('images/AM333-test-6.gif');
-*/
-    /* Set a specific height */
-/*    min-height: 1200px; */
-
-    /* Create the parallax scrolling effect */
-/*    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax.two {
-	background-image: url('images/HD-EVERY-NIGHT.jpg');
-
-}
-
-.homie {
-	height:800px;
-	background-color:red;
-	font-size:36px
-}
-*/
-
 /* Media Queries*/
 @media screen and (max-width: 2800px) {
   .link { font-size: 48px;}
-  .home.large { top: 20%;}
+  .home.large { width: 828px; height: 147px; top: 20%;}
   .newpage.three {height: 1500px;}
   .newpage.four {height: 1500px;}
 
