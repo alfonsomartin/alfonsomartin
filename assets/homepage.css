@@ -277,6 +277,7 @@ h3 {
 .contacting {
 	width: 100%;
 }
+
 h2 {
 	font-family: tenso, sans-serif;
 	font-size: 96px;
@@ -292,14 +293,14 @@ h2 {
 	text-align: center;
 }
 
-h3 {
+.contacting h3 {
 	font-family: tenso, sans-serif;
 	font-size: 60px;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
 	margin: 0px;
-	padding: 80px;
+	padding: 50px 0px 0px 0px;
 }
 .contacting h3 {
 	text-align: center;
@@ -336,8 +337,10 @@ h3 {
 /* Media Queries*/
 @media screen and (max-width: 2800px) {
   .link { font-size: 48px;}
+  .home.large { top: 20%;}
   .newpage.three {height: 1500px;}
   .newpage.four {height: 1500px;}
+
 }
 
 
@@ -391,6 +394,10 @@ h3 {
   .link { font-size: 40px;}
   .newpage.three {height: 1000px;}
   .newpage.four {height: 1000px;}
+  h2 {font-size: 40px;}
+  .about h3 {padding: 40px; font-size: 24px;}
+  .contacting h3 {font-size: 24px;}
+  .enter {font-size: 30px; width: 90px; height: 35px; bottom: 5%;}
 
 }
 
@@ -399,33 +406,39 @@ h3 {
   .home.large { width: 188px; height: 318px; top: 40%;}
   .link { font-size: 40px;}
   .newpage { height: 700px;}
+
 }
 
 @media screen and (max-width: 480px) {	
   .home.small { width: 139px; height: 32; top: 7%;}
-  .home.large {width: 348px; height: 85px; top: 40%;}
+  .home.large {width: 348px; height: 85px; top: 35%;}
   .link { font-size: 28px;}
   .newpage.two {height: 700px;}
   .newpage.three {height: 2500px;}
   .newpage.four {height: 2500px;}
   .newpage.five {height: 750px;}
-  .thumbnail { float: none; width: 100%; margin-right: 0;}
-  .container {float: none; width: 100%}
+  .container {float: none; width: 100%; margin-right: 0;}
   h2 {font-size: 48px}
   h3 {font-size: 24px}
+  .about h3 {padding: 40px}
+  .contacting h3 {font-size: 18px;}
+  .enter {font-size: 30px; width: 90px; height: 35px; bottom: 20%;}
 }
 
 
 @media screen and (max-width: 320px) {	
   .home.small { width: 139px; height: 32; top: 7%;}
-  .home.large {width: 288px; height: 65px; top: 35%;}
+  .home.large {width: 288px; height: 65px; top: 30%;}
   .link { font-size: 28px;}
   .newpage.two {height: 700px;}
   .newpage.three {height: 2500px;}
   .newpage.four {height: 2500px;}
   .newpage.five {height: 750px;}
-  .thumbnail { float: none; width: 100%; margin-right: 0;}
-  .container {float: none; width: 100%}
-  h2 {font-size: 48px}
-  h3 {font-size: 24px}
+  .container {float: none; width: 100%; margin-right: 0;}
+  h2 {font-size: 40px;}
+  h3 {font-size: 18px;}
+  .about h3 {padding: 40px}
+  .contacting h3 {font-size: 18px;}
+  .enter {font-size: 30px; width: 90px; height: 35px; bottom: 20%;}
+
 }
