@@ -130,7 +130,6 @@ body {
 .enter {
 	width: 200px;
 	height: 50px;
-	background: green;
 	position: absolute;
 	bottom: 10%;
     left: 50%;
@@ -143,9 +142,15 @@ body {
 	text-decoration: none;
 	color: #ffffff;
 }
+
+.enter:hover {
+	text-decoration: underline;
+	color:#ffffff;
+}
 .disappear {
 	display:block;
 }
+
 
 /*ABOUT-------------------------------------------------*/
 .newpage.two {
@@ -191,7 +196,7 @@ h3 {
 	height: 100%;
 	background-color: black;
 	position: relative;
-	padding-top: 120px;
+	padding-top: 50px;
 	margin: 0px auto;
 }
 

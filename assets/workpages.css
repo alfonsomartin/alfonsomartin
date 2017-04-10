@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	background-color: black ;
+	background-color: white ;
 }
 * {
 	box-sizing: border-box;
@@ -24,7 +24,7 @@ body {
 }
 .link a {
 	text-decoration: none;
-	color:black;
+	color:white;
 }
 .link a:hover {
 	text-decoration: underline;
@@ -98,28 +98,78 @@ body {
 	transition: 0.3s;
 }
 
-
-.newpage {
-	width: 100%;
-	height: 800px;
-	background-color: red;
-}
-
+/*-----------------------------------------------------------*/
 .parallax {
 /* The image used */
-	background-image: url('images/yjc-hero.jpg');
+	background-image: url('images/amame-1.JPG');
 /*     Set a specific height  */    
-	min-height: 600px; 
+	min-height: 700px; 
 
 /*    Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 
-/* Media Queries*/
+.newpage {
+	width: 100%;
+	height: 1200px;
+	background-color: black;
+}
+
+.works {
+	width: 90%;
+	background-color: black;
+	position: relative;
+	padding-top: 50px;
+	margin: 0px auto;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    float:left;
+   	padding: 0;
+	margin-right: 5%;	
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container-2 {
+    position: relative;
+    width: 30%;
+    float:left;
+   	padding: 0;
+   	color: white;
+	font-family: tenso, sans-serif;
+	font-style: normal;	
+	line-height: 1.4em;
+}
+
+.container-2 h1 {
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 48px;
+	padding: 0;
+	margin-top: 0px;
+}
+
+.last {
+	margin-right: 0;
+}
+
+
+
+/* Media Queries----------------------------------------------------------*/
 @media screen and (max-width: 2800px) {
   .link { font-size: 48px;}
 }
@@ -172,8 +222,8 @@ body {
 
 @media screen and (max-width: 320px) {	
   .home.small { width: 139px; height: 32; top: 7%;}
-  .home.large {width: 288px; height: 65px; top: 35%;}
   .link { font-size: 28px;}
+  .parallax { min-height: 200px; }
   h2 {font-size: 48px}
   h3 {font-size: 24px}
 }

@@ -27,7 +27,6 @@ $(document).scroll(function() {
 });
 
 
-
 // $(document).on("scroll", function() {
 
 // 	if($(document).scrollTop()>200)
