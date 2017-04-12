@@ -78,7 +78,7 @@ body {
 
 .newpage {
 	width: 100%;
-	height: 1200px;
+	height: 700px;
 	background-color: black;
 }
 
@@ -178,12 +178,14 @@ h2 {
 
 h3 {
 	font-family: tenso, sans-serif;
-	font-size: 60px;
-	font-style: italic;
+	font-size: 48px;
+	font-style: normal;
 	font-weight: 400;
 	color: #ffffff;
 	margin: 0px;
-	padding: 80px;
+	padding: 80px 100px;
+	line-height: 1.3em;
+	text-align: center;
 }
 
 /*WORK-------------------------------------------------*/
@@ -276,23 +278,13 @@ h3 {
 /*CONTACT-------------------------------------------------*/
 .newpage.five {
 	background-color: black;
-	height: 1000px;
+	height: 900px;
 }
 
 .contacting {
 	width: 100%;
 }
 
-h2 {
-	font-family: tenso, sans-serif;
-	font-size: 96px;
-	font-style: italic;
-	font-weight: 600;
-	text-decoration: underline;
-	color: #ffffff;
-	padding-top: 100px;
-	margin: 0px;
-}
 
 .contacting h2 {
 	text-align: center;
@@ -348,8 +340,8 @@ h2 {
   .shops {padding-top: 80px}
   .works {padding-top: 100px}
   .newpage.four {height: 800px;}
-  h2 {font-size: 84px}
-  h3 {font-size: 54px}
+  h2 {font-size: 72px;}
+  h3 {font-size: 36px; padding: 40px;}
 }
 
 
@@ -360,8 +352,8 @@ h2 {
   .shops {padding-top: 80px}
   .works {padding-top: 100px}
   .newpage.four {height: 800px;}
-  h2 {font-size: 84px}
-  h3 {font-size: 54px}
+  h2 {font-size: 72px;}
+  h3 {font-size: 36px;}
 }
 
 
@@ -394,9 +386,9 @@ h2 {
   .newpage.four {height: 2500px;}
   .newpage.five {height: 750px;}
   .container {float: none; width: 100%; margin-right: 0;}
-  h2 {font-size: 48px}
-  h3 {font-size: 24px}
-  .about h3 {padding: 40px}
+  h2 {font-size: 48px;}
+  h3 {font-size: 24px;}
+  .about h3 {padding: 40px;}
   .contacting h3 {font-size: 18px;}
   .enter {font-size: 30px; width: 90px; height: 35px; bottom: 20%;}
 }
