@@ -91,17 +91,28 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 4;
+    z-index: 6;
 }
 
 .home img {
 	width: 100%;
 }
 
+.size {
+    transform: scale(.5,.5);
+}
+
+.stay {
+	position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.37,.37);
+}
+
 .large {
 	width: 1088px; 
 	height: 248px;
-    top: 30%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%)
     -o-transition: 0.5s;
@@ -116,7 +127,7 @@ body {
 	width:196px;
 	height:45px;
 	position: fixed;
-    top: 8%;
+    top: 4%;
     left: 50%;
     transform: translate(-50%, -50%)
     -o-transition: 0.3s;
@@ -178,7 +189,7 @@ h2 {
 
 h3 {
 	font-family: tenso, sans-serif;
-	font-size: 48px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
 	color: #ffffff;
@@ -227,7 +238,9 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  width: 90%
+
 }
 
 .container:hover .image {
@@ -278,7 +291,7 @@ h3 {
 /*CONTACT-------------------------------------------------*/
 .newpage.five {
 	background-color: black;
-	height: 900px;
+	height: 800px;
 }
 
 .contacting {
@@ -292,7 +305,7 @@ h3 {
 
 .contacting h3 {
 	font-family: tenso, sans-serif;
-	font-size: 60px;
+	font-size: 36px;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
@@ -306,7 +319,7 @@ h3 {
 /* Media Queries*/
 @media screen and (max-width: 2800px) {
   .link { font-size: 48px;}
-  .home.large { width: 838px; height: 157px; top: 20%;}
+  .home.large { width: 838px; height: 157px; top: 10%;}
   .newpage.three {height: 1500px;}
   .newpage.four {height: 1500px;}
 
@@ -316,17 +329,19 @@ h3 {
   .link { font-size: 48px;}
   .newpage.three {height: 1500px;}
   .newpage.four {height: 1500px;}
+  h3 {font-size: 36px; margin: 0 200px;}
+
 }
 
 @media screen and (max-width: 1280px) {
-  .home.large { width: 778px; height: 176px; top: 20%;}
+  .home.large { width: 778px; height: 176px; top: 10%;}
   .link { font-size: 40px;}
   .newpage.three {height: 1100px;}
   .newpage.four {height: 1100px;}
 }
 
 @media screen and (max-width: 1080px) {
-  .home.large { width: 778px; height: 176px; top: 20%;}
+  .home.large { width: 778px; height: 176px; top: 5%;}
   .link { font-size: 40px;}
   .newpage.three {height: 1000px;}
   .newpage.four {height: 1000px;}
@@ -334,7 +349,7 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-  .home.large { width: 628px; height: 146px; top: 35%;}
+  .home.large { width: 628px; height: 146px; top: 5%;}
   .link { font-size: 40px;}
   .newpage.three {height: 800px;}
   .shops {padding-top: 80px}
@@ -346,7 +361,7 @@ h3 {
 
 
 @media screen and (max-width: 736px) {
-  .home.large { width: 488px; height: 110px; top: 10%;}
+  .home.large { width: 488px; height: 110px; top: 5%;}
   .link { font-size: 40px;}
   .newpage.three {height: 800px;}
   .shops {padding-top: 80px}
@@ -358,7 +373,7 @@ h3 {
 
 
 @media screen and (max-width: 680px) {
-  .home.large { width: 408px; height: 96px; top: 10%;}
+  .home.large { width: 408px; height: 96px; top: 5%;}
   .link { font-size: 40px;}
   .newpage.three {height: 1000px;}
   .newpage.four {height: 1000px;}
@@ -378,7 +393,8 @@ h3 {
 }
 
 @media screen and (max-width: 480px) {	
-  .home.small { width: 139px; height: 32; top: 7%;}
+  .home.small { width: 139px; height: 32; top: 5%;}
+  .stay { top: 65%;}
   .home.large {width: 348px; height: 85px; top: 35%;}
   .link { font-size: 28px;}
   .newpage.two {height: 700px;}
@@ -395,7 +411,8 @@ h3 {
 
 
 @media screen and (max-width: 320px) {	
-  .home.small { width: 139px; height: 32; top: 7%;}
+  .home.small { width: 139px; height: 32; top: 5%;}
+  .stay { top: 65%;}
   .home.large {width: 288px; height: 65px; top: 30%;}
   .link { font-size: 28px;}
   .newpage.two {height: 700px;}
@@ -408,5 +425,6 @@ h3 {
   .about h3 {padding: 40px}
   .contacting h3 {font-size: 18px;}
   .enter {font-size: 30px; width: 90px; height: 35px; bottom: 15%;}
+
 
 }

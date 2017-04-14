@@ -16,7 +16,7 @@ $(document).on("scroll", function() {
 	
 });
 
- var images = ['am333-1.png','am333-2.png','am333-3.png'];
+ var images = ['alfonso-1.png','alfonso-2.png','alfonso-3.png','alfonso-4.png'];
 
     $('<img class="disappear" src="assets/images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('.home');
 
