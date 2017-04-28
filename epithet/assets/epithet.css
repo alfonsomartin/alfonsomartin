@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	background-color: white ;
-  font-family: tisa sans, sans-serif;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
 
 }
 * {
@@ -636,7 +636,7 @@ h6 {
 }
 
 @media screen and (max-width: 2000px) {
-
+.
 }
 
 @media screen and (max-width: 1280px) {
