@@ -141,6 +141,52 @@ position: relative;
 position: relative;
 }
 
+.a5-parallax {
+/* The image used */
+  background-image: url("images/article4-blacknames1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+
+.a6-parallax {
+/* The image used */
+  background-image: url("images/article4-blacknames1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+
+
+.a7-parallax {
+/* The image used */
+  background-image: url("images/article4-blacknames1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+
+
+
+
 
 .intro {
   position: absolute;
@@ -201,8 +247,27 @@ position: relative;
   height: 3200px;
 }
 
+.a5 {
+  height: 3250px;
+}
 
+.a6 {
+  height: 3200px;
+}
+.a7 {
+  height: 3850px;
+}
+.a8 {
+  height: 3700px;
+}
 
+.a9 {
+  height: 4600px;
+}
+
+.a10 {
+  height: 3500px;
+}
 
 
 .title{
@@ -364,7 +429,7 @@ h4 {
 
 .two {
   background-color: #D7BFA1;
-  height: 530px;
+  height: 540px;
 }
 
 .center-title3 {
