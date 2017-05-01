@@ -2,7 +2,7 @@ body {
 	margin: 0px;
 	background-color: white ;
   font-family: "ff-tisa-sans-web-pro", sans-serif;
-
+  overflow-x:hidden;
 }
 * {
 	box-sizing: border-box;
@@ -88,7 +88,7 @@ body {
 /* The image used */
   background-image: url("images/buildings.jpg");
 /*     Set a specific height  */    
-  min-height: 700px; 
+  min-height: 650px; 
 
 /*    Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -112,10 +112,10 @@ position: relative;
 
 .intro h1 {
   font-size: 60px;
-  padding-left: 2%;
+  padding: 2% 0 2% 2%;
   color: white;
   line-height: 1.4em;
-  margin-top: 1%;
+  margin: 0;
 }
 
 .intro a:link {
@@ -148,9 +148,9 @@ position: relative;
 
 .center-title {
   margin: 0 auto;
-  width: 426px;
+  width: 404px;
   text-align: center;
-  padding: 100px 0 60px 0;
+  padding: 60px 0 60px 0;
   display: block;
 }
 
@@ -169,7 +169,7 @@ h2 {
 
 
 .works {
-  width: 90%;
+  width: 95%;
   height: 310px;
   position: relative;
   margin: 0px auto;
@@ -221,7 +221,7 @@ h3 {
 .box {
   border: #D7BFA1 solid 2px;
   padding: 15px;
-  margin-top: 90px;
+  margin-top: 120px;
   width: 200px;
 }
 
@@ -250,14 +250,14 @@ h3 {
 }
 
 .right {
-  width: 48%;
+  width: 45%;
   padding-left: 6%;
   padding-top: 6%;
   float: left;
 }
 
 .side-title {
-  width: 200px;
+  width: 188px;
   text-align: left;
 }
 
@@ -310,8 +310,7 @@ h3 {
   background-color: none;
   height: 650px;
   z-index: 1;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding: 5% 0 5% 0;
 }
 
 .side-title-2 {
@@ -360,6 +359,7 @@ h5 {
   line-height: 1.4em;
   font-style: italic;
   color: #2A345B;
+  text-indent: -10px;
 }
 
 .text .box {
@@ -452,7 +452,7 @@ h5 {
 
 .about {
   margin: 0 auto;
-  width: 210px;
+  width: 201px;
   text-align: center;
   padding-top: 150px;
 }
@@ -508,6 +508,7 @@ h4 {
   font-size: 14px;
   font-weight: 300;
   padding: 8px 0 20px 0;
+  font-style: italic;
 }
 
 /* FORM - - - - - - - - - - - - - */
@@ -568,7 +569,7 @@ h4 {
 .form-style-5 input[type="submit"]:hover,
 .form-style-5 input[type="button"]:hover
 {
-    background: #109177;
+    background: #D7BFA1;
     z-index: 3;
 }
 
@@ -640,7 +641,7 @@ h6 {
 .two { height: 720px; }
 .box { margin-top: 90px; }
 .three { height: 680px; }
-.right { width: 48%; }
+.right { width: 45%; }
 .four { height: 650px; }
 .side-image { width: 400px; height: 400px;}
 .five { height: 650px;}
@@ -649,9 +650,9 @@ h6 {
 
 @media screen and (max-width: 1280px) {
 .two { height: 720px; }
-.box { margin-top: 90px; }
+.box { margin-top: 120px; }
 .three { height: 640px; }
-.right { width: 48%; }
+.right { width: 45%; }
 .four { height: 650px; }
 .side-image { width: 400px; height: 400px;}
 .five { height: 650px;}
