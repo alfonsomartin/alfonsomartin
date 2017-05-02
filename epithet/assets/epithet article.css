@@ -143,7 +143,7 @@ position: relative;
 
 .a5-parallax {
 /* The image used */
-  background-image: url("images/article4-blacknames1.jpg");
+  background-image: url("images/article5-accent1.jpg");
 /*     Set a specific height  */    
   min-height: 700px; 
 
@@ -157,7 +157,7 @@ position: relative;
 
 .a6-parallax {
 /* The image used */
-  background-image: url("images/article4-blacknames1.jpg");
+  background-image: url("images/article6-sound1.jpg");
 /*     Set a specific height  */    
   min-height: 700px; 
 
@@ -172,7 +172,7 @@ position: relative;
 
 .a7-parallax {
 /* The image used */
-  background-image: url("images/article4-blacknames1.jpg");
+  background-image: url("images/article7-dress1.jpg");
 /*     Set a specific height  */    
   min-height: 700px; 
 
@@ -184,8 +184,123 @@ position: relative;
 position: relative;
 }
 
+.a8-parallax {
+/* The image used */
+  background-image: url("images/article8-interview1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
 
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
+position: relative;
+}
+.a9-parallax {
+/* The image used */
+  background-image: url("images/article9-asianmenwhite1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a10-parallax {
+/* The image used */
+  background-image: url("images/article10-lighterskin1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a11-parallax {
+/* The image used */
+  background-image: url("images/article11-skintone1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a12-parallax {
+/* The image used */
+  background-image: url("images/article12-graduates1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a13-parallax {
+/* The image used */
+  background-image: url("images/article13-angela1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a14-parallax {
+/* The image used */
+  background-image: url("images/article14-bianca1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a15-parallax {
+/* The image used */
+  background-image: url("images/article15-adammohamad1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
+.a16-parallax {
+/* The image used */
+  background-image: url("images/article16-surgery1.jpg");
+/*     Set a specific height  */    
+  min-height: 700px; 
+
+/*    Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+position: relative;
+}
 
 
 .intro {
@@ -266,8 +381,27 @@ position: relative;
 }
 
 .a10 {
-  height: 3500px;
+  height: 3700px;
 }
+
+.a12 {
+  height: 3400px;
+}
+.a13 {
+  height: 5200px;
+}
+
+.a14 {
+  height: 1900px;
+}
+
+.a15 {
+  height: 4000px;
+}
+.a16 {
+  height: 3900px;
+}
+
 
 
 .title{
