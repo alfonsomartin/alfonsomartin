@@ -301,7 +301,7 @@ h4 {
 
 .three {
   background-color: #D7BFA1;
-  height: 650px;
+  height: 670px;
 }
 
 .tan {
@@ -331,7 +331,7 @@ h4 {
 }
 
 .side-title {
-  width: 296px;
+  width: 275px;
   text-align: left;
   margin-bottom: 30px;
 }
@@ -478,14 +478,21 @@ h5 {
 }
 .center-title2 {
   margin: 0 auto;
-  width: 445px;
+  width: 424px;
   text-align: center;
   padding-top: 80px;
 }
 
 .center-title-complex {
   margin: 0 auto;
-  width: 762px;
+  width: 734px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.center-title-cosmetic {
+  margin: 0 auto;
+  width: 704px;
   text-align: center;
   padding-top: 80px;
 }
@@ -540,12 +547,22 @@ h5 {
 }
 
 .newside-title {
-  width: 601px;
+  width: 582px;
+  text-align: left;
+  padding: 5% 0 3% 0%;
+}
+
+.newside-title2 {
+  width: 489px;
   text-align: left;
   padding: 5% 0 3% 0%;
 }
 
 .newside-title h2 {
+  color: white;
+}
+
+.newside-title2 h2 {
   color: white;
 }
 
@@ -670,7 +687,7 @@ h5 {
 
 .two {
   background-color: none;
-  height: 550px;
+  height: 600px;
   padding-top: 50px;
 }
 
@@ -683,7 +700,7 @@ h2 {
 
 .center-title3 {
   margin: 0 auto;
-  width: 398px;
+  width: 375px;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -903,7 +920,7 @@ h6 {
 
 .archive {
   background-color: #D7BFA1;
-  height: 2000px;
+  height: 1950px;
   padding-top: 100px;
 }
 
