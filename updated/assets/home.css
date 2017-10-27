@@ -1,0 +1,133 @@
+body {
+	margin: 0px;
+	background-color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*NAVIGATION SIDEBAR*/
+.sidebar {
+	width: 175px;
+	height: 100%;
+	background-color: black;
+	padding: 20px 0;
+	position: fixed;
+	float: left;
+}
+
+.sidebar img {
+	width: 75px;
+	display: block;
+	margin: 0 auto;
+}
+
+.links {
+	margin-top: 15px;
+	color: white;
+	font-family: tenso, sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	line-height: 2em;
+}
+
+.links a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.links a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: green;
+}
+
+.links a:active {
+	color: yellow;
+}
+
+.footer {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+.copyright {
+	color: white;
+	font-family: tenso, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 1.6em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*CONTENT*/
+.content {
+	background-color: green;
+	width: 100%;
+	height: 300px;
+	margin-left: 175px;
+}
+
+
+
+
+
+
+/* Media Queries*/
+@media screen and (max-width: 2800px) {
+
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1080px) {
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 736px) {
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+@media screen and (max-width: 480px) {	
+ 
+}
+
+
+@media screen and (max-width: 320px) {	
+
+
+
+}
