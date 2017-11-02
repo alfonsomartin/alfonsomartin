@@ -194,10 +194,10 @@ h5 {
 
 
 @media screen and (max-width: 600px) {
-.sidebar {width: 105px; padding: 30px 0px 0px 15px;}
+.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
 .sidebar img {width: 55px;}
 .copyright {font-size: 8px;}
-.content {margin-left: 105px;}
+.content {margin-left: 100px;}
 .project {height: 200px;}
 .project.one {background-image: url('thumbnails/amame.jpg');}
 .title {width: 75%; padding: 5px;}
@@ -207,10 +207,10 @@ h5 {font-size: 9px;}
 }
 
 @media screen and (max-width: 480px) {	
-.sidebar {width: 105px; padding: 30px 0px 0px 15px;}
+.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
 .sidebar img {width: 55px;}
 .copyright {font-size: 8px;}
-.content {margin-left: 105px;}
+.content {margin-left: 100px;}
 .project {height: 200px;}
 .title {width: 75%; padding: 5px;}
 h1 {font-size: 12px;}
@@ -219,11 +219,11 @@ h5 {font-size: 9px;}
 
 
 @media screen and (max-width: 320px) {	
-.sidebar {width: 105px; padding: 30px 0px 0px 15px;}
+.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
 .sidebar img {width: 55px;}
 .links {font-size: 16px;}
 .copyright {font-size: 7px;}
-.content {margin-left: 105px;}
+.content {margin-left: 100px;}
 .project {height: 200px;}
 .title {width: 75%; padding: 5px;}
 h1 {font-size: 12px;}
