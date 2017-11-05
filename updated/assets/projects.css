@@ -236,7 +236,7 @@ h6 {
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 100%;
     max-width: 700px;
 }
 
@@ -244,11 +244,11 @@ h6 {
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 100%;
     max-width: 700px;
     text-align: left;
     color: white;
-    padding: 8px 0;
+    padding: 8px 0px 0px 8px;
     height: 150px;
     font-family: tenso, sans-serif;
     font-style: italic;
@@ -278,7 +278,7 @@ h6 {
 .close {
     position: absolute;
     top: 15px;
-    right: 35px;
+    right: 15px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
@@ -368,8 +368,8 @@ h6 {font-size: 12px;}
 .header {width: 100%;}
 .description {width: 100%; margin-top: 10px;}
 .images {width: 100%;}
-.images img { padding: 20px 20px 0 20px;}
-.caption {left: 20px;}
+.images img { padding: 0px;}
+.caption {left: 0;}
 }
 
 
