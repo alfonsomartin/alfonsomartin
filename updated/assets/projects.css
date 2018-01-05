@@ -220,6 +220,14 @@ h6 {
 	margin: 2px 0 0 0;
 }
 
+.description a {
+	color: inherit;
+	font-weight: 600;
+}
+.description a:hover{
+	opacity: 0.5;
+}
+
  /* Style the Image Used to Trigger the Modal */
 .myImg {
     cursor: pointer;

@@ -30,7 +30,7 @@ var colors = [
         "rgba(186, 92, 186, 0.7)",
         "rgba(131,224,224,0.7)",
         "rgba(13, 199, 165, 0.7)",
-        "rgba(86, 60, 232, 0.7)",
+        "rgba(124, 119, 224, 0.7)",
         "rgba(242, 206, 233, 0.7)",
         "rgba(117, 238, 137, 0.7)",
         "rgba(213, 236, 158, 0.7)"
@@ -38,8 +38,8 @@ var colors = [
 
     $('.sphere').each(function() {
 
-        var min = 35;
-        var max = 65;
+        var min = 40;
+        var max = 55;
 
         var random = Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -58,13 +58,13 @@ var state = 'one';
 
     // Change to "style two"
     function changeToTwo(){
-        $('.sphere, .bigCircle, .lilCircle, .backCircle').addClass('style-two');
+        $('.sphere, .backCircle').addClass('style-two');
         state = 'two';
     }
 
     // Change back to one (default)
     function changeToOne(){
-        $('.sphere, .bigCircle, .lilCircle, .backCircle').removeClass('style-two');
+        $('.sphere, .backCircle').removeClass('style-two');
         state = 'one';
     }
 
