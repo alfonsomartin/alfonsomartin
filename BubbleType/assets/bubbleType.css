@@ -249,7 +249,11 @@ h2 a:hover {
 
 .sphere:hover {
 	transform: scale(1.9);
+	cursor: pointer;
+	opacity: 0;
+
 }
+
 
 .style-two {
 	background: none !important;
@@ -707,5 +711,3 @@ h2 a:hover {
 .sphere.QU4 {
 	right: 100px;
 }
-
-

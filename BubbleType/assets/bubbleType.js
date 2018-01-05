@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
 
-    // Type using bubble type
 
-    $('.letters').each(function() {
+// Type using bubble type
+$('.letters').each(function() {
 
       var $letterWrapper = $(this);
       var letters = $letterWrapper.html().split('');
@@ -25,9 +25,8 @@ $(document).ready(function(){
 
 
 
-    // Random bubble size
-
-    var colors = [
+// random bubble size
+var colors = [
         "rgba(186, 92, 186, 0.7)",
         "rgba(131,224,224,0.7)",
         "rgba(13, 199, 165, 0.7)",
@@ -50,12 +49,12 @@ $(document).ready(function(){
         $(this).css("width", random +"px");
         $(this).css("height", random +"px");
         $(this).css("background", randomColor);
-    });
+ });
 
 
-    // jQuery toggle colors. click on any of the circles
-
-    var state = 'one';
+// change between styles
+// jQuery toggle colors. click on any of the circles
+var state = 'one';
 
     // Change to "style two"
     function changeToTwo(){
@@ -85,13 +84,14 @@ $(document).ready(function(){
 });
 
 
-// pretty scrolling
+// pretty Scrolling
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
     }, 500);
     return false;
 });
+
 
 // bigCirlce color
 var colors = [
@@ -113,6 +113,7 @@ $('button').click(function(){
     counter++;
 });
 
+
 // background color
 var colors = [
     "linear-gradient(#353358, #77B7E5, #FFF)",
@@ -132,3 +133,8 @@ $('.newButton').click(function(){
     $('body').css("background", currentColor);
     counter++;
 });
+
+
+
+
+

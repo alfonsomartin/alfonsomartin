@@ -11,20 +11,26 @@ body {
 	box-sizing: border-box;
 }
 
+/* NAVIGATION SIDEBAR-------------------*/
 
-/*NAVIGATION SIDEBAR*/
 .sidebar {
-	width: 175px;
+	width: 150px;
 	height: 100%;
 	background-color: black;
-	padding: 30px 0px 0px 40px;
+	padding: 30px 0px 0px 20px;
 	float: left;
 	overflow:hidden;
 	position: fixed;
 }
 
 .sidebar img {
-	width: 75px;
+	width: 100px;
+}
+
+.sidebar img:hover {
+	opacity: 0.4;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
 }
 
 .links {
@@ -33,7 +39,7 @@ body {
 	font-family: tenso, sans-serif;
 	font-style: italic;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 24px;
 	text-align: left;
 	line-height: 2em;
 }
@@ -49,16 +55,18 @@ body {
 }
 
 .links a:hover {
-	color: green;
+	opacity: 0.4;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
 }
 
 .links a:active {
-	color: yellow;
+	opacity: 0.4;
 }
 
 .footer {
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	width: 100%;
 }
 
@@ -72,36 +80,86 @@ body {
 	text-align: left;
 }
 
-/*CONTENT*/
+
+/* PROJECTS-------------------*/
+
 .content {
-	margin-left: 175px;
+	margin-left: 150px;
 	height: 100%;
 	overflow-x: hidden;
-	background-color: lime;
+	background-color: black;
 }
 
-
-.project {
+.bgcolor {
 	width: 100%;
 	height: 375px;
 	float: left;
 	position: relative;
+}
+
+.bgcolor.one {
+	background-color: teal;
+}
+.bgcolor.two {
+	background-color: plum;
+}
+.bgcolor.three {
+	background-color: orange;
+}
+.bgcolor.four {
+	background-color: pink;
+}
+.bgcolor.five {
+	background-color: #d2d77d;
+}
+.bgcolor.six {
+	background-color: purple;
+}
+
+.project {
+	width: 100%;
+	height: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-
 .project.one {
-	background-image: url('projects/amame/full-system.jpg');
-}
-.project:hover {
-	opacity: 0.5;
+	background-image: url('thumbnails/amame-thumbnail.jpg');
 }
 
 .project.two {
-	background-image: url('projects/bubbles/bubbletype-cover2.png');
+	background-image: url('thumbnails/bubbletype-thumbnail.jpg');
 }
+
+.project.three {
+	background-image: url('thumbnails/icarvetime-thumbnail.jpg');
+}
+
+.project.four {
+	background-image: url('thumbnails/harrison-thumbnail.jpg');
+}
+
+.project.five {
+	background-image: url('thumbnails/rockbot-thumbnail.jpg');
+}
+
+.project.six {
+	background-image: url('thumbnails/epithet-thumbnail.png');
+}
+
+
+/*PROJECT HOVER EFFECTS-------------------*/
+
+.project:hover{
+	background-size: 103%;
+	opacity: 0.7;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+    transition: .3s ease-in-out;
+}
+
+
+/*PROJECT LABELS-------------------*/
 
 .title { 
 	background-color: black;
@@ -109,6 +167,7 @@ body {
 	width: 50%;
 	position: absolute;
 	bottom: 0;
+	/*border-radius: 0 15px 0 0;*/
 }
 
 h1 {
@@ -116,7 +175,7 @@ h1 {
 	font-family: tenso, sans-serif;
 	font-style: italic;
 	font-weight: 600;
-	font-size: 21px;
+	font-size: 24px;
 	text-align: left;
 	margin: 0;
 }
@@ -126,44 +185,48 @@ h5 {
 	font-family: tenso, sans-serif;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 11px;
+	font-size: 12px;
 	text-align: left;
 	margin: 2px 0 0 0;
 }
 
-.page {
-	width: 100%;
-	height: 375px;
-	background-color: red;
-	float: left;
-	position: relative;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+/*PROJECT LABELS HOVER EFFECTS-------------------*/
+
+.project.one:hover .title {
+	background-color: teal;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
 }
 
-.page.hero {
-	background-image: url('projects/amame/full-system.jpg');
-	height: 600px;
-	float: left;
-	position: relative;
+.project.two:hover .title {
+	background-color: plum;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
+}
+.project.three:hover .title {
+	background-color: orange;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
+}
+.project.four:hover .title {
+	background-color: pink;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
+}
+.project.five:hover .title {
+	background-color: #d2d77d;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
+}
+.project.six:hover .title {
+	background-color: purple;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
 }
 
-.page.info {
-	height: 250px;
-	float: left;
-	position: relative;
-	background-color: black;
-}
 
-.description {
+/* MEDIA QUERIES*/
 
-}
-
-
-
-
-/* Media Queries*/
 @media screen and (max-width: 2800px) {
 
 }
@@ -173,63 +236,50 @@ h5 {
 }
 
 @media screen and (max-width: 1280px) {
-
 }
 
 @media screen and (max-width: 1080px) {
 
-
 }
 
 
-@media screen and (max-width: 740px) {
-.project {height: 325px;}
+@media screen and (max-width: 760px) {
+.bgcolor {height: 325px;}
 }
 
 
 @media screen and (max-width: 680px) {
-.project {height: 250px;}
-
+.bgcolor {height: 250px;}
 }
 
 
 @media screen and (max-width: 600px) {
 .sidebar {width: 100px; padding: 30px 0px 0px 10px;}
-.sidebar img {width: 55px;}
-.links {font-size: 16px;}
+.sidebar img {width: 75px;}
+.links {font-size: 18px;}
 .copyright {font-size: 7px;}
 .content {margin-left: 100px;}
-.project {height: 200px;}
-.project.one {background-image: url('thumbnails/amame.jpg');}
-.title {width: 75%; padding: 5px;}
-h1 {font-size: 12px;}
-h5 {font-size: 9px;}
-
-}
-
-@media screen and (max-width: 480px) {	
-.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
-.sidebar img {width: 55px;}
-.links {font-size: 16px;}
-.copyright {font-size: 7px;}
-.content {margin-left: 100px;}
-.project {height: 200px;}
-.title {width: 75%; padding: 5px;}
+.bgcolor {height: 200px;}
+.title {width: 55%; padding: 5px;}
 h1 {font-size: 12px;}
 h5 {font-size: 9px;}
 }
 
 
+/*iPhone 6,7,8,X*/
+@media screen and (max-width: 420px) {
+.bgcolor {height: 170px;}
+}
+
+/*Galaxy S5 */
+@media screen and (max-width: 360px) {	
+.bgcolor {height: 160px;}
+}
+
+
+/*iPhone 5*/
 @media screen and (max-width: 320px) {	
-.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
-.sidebar img {width: 55px;}
-.links {font-size: 16px;}
-.copyright {font-size: 7px;}
-.content {margin-left: 100px;}
-.project {height: 200px;}
-.title {width: 75%; padding: 5px;}
-h1 {font-size: 12px;}
-h5 {font-size: 9px;}
+.bgcolor {height: 125px;}
+.title {width: 65%; padding: 5px;}
 }
 
-}
