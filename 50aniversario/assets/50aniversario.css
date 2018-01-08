@@ -6,15 +6,15 @@
         left: 0;
         top: 0;
         height: 100%;
+        z-index: 50;
 }
 
 #con1 {
 	position: absolute;
 	right: 25px;
   top: 25px;
-	width: 175px;
-	height: 175px;
-	text-align: center;
+	width: 180px;
+  z-index: 100;
 }
 
 img {
@@ -43,7 +43,9 @@ body {
   margin: 50px auto;
   outline: #FADCCD solid 5px;
   width: 600px;
+  overflow: hidden;
   box-shadow: 1px 1px 60px 20px rgba(255,255,255,0.4);
+  z-index: 1;
 }
 
 h1 {
@@ -72,67 +74,59 @@ h2 {
   bottom: 15px;
 }
 
-
-
-@keyframes flipInY {
-  from {
-    transform: perspective(400px) rotate3d(0, 1, 0, 0deg); 
-  }
-
-  to {
-    transform: perspective(400px) rotate3d(0, 1, 0, 360deg);
-  }
-}
-
 .flipInY {
   backface-visibility: visible !important;
   animation-name: flipInY;
   animation-iteration-count:infinite;
   animation-duration: 5s;
   animation-timing-function: linear;
+
+  -webkit-backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
 }
 
-@-webkit-keyframes ShineAnimation{
-    from {
-        background-repeat:no-repeat;
-        background-image:-webkit-linear-gradient(
-            top left,
-            rgba(255, 255, 255, 0.0) 0%,
-            rgba(255, 255, 255, 0.0) 40%,
-            rgba(255, 255, 255, 0.5) 48%,
-            rgba(255, 255, 255, 0.8) 50%,
-            rgba(255, 255, 255, 0.5) 52%,
-            rgba(255, 255, 255, 0.0) 60%,
-            rgba(255, 255, 255, 0.0) 100%
-        );
-        background-position:-250px -250px;
-        background-size: 700px 700px;
-    }
-
-    to {
-        background-repeat:no-repeat;
-        background-position: 600px 600px;
-       
-    }
+@-webkit-keyframes flipInY {
+  0% {
+    -webkit-transform: rotate3d(0,1, 0, 0deg);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 1, 0, 90deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 1, 10, 0deg);
+  }
 }
 
-.shine-me {
-  opacity: .4;
+.shine{
+  width: 1000px;
+  height: 100px;
+  margin-left: -100px;
+  transform: rotate(-30deg);
+  background: -webkit-linear-gradient(top, transparent, rgba(200,200,200,0.2),transparent);
   position: absolute;
-  top: 0;
-  z-index: 100;
-  width:100%;
-  height: 100%;
-    -webkit-animation-name: ShineAnimation;
-    -webkit-animation-duration: 6s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: cubic-bezier(.2,.8,.9,.3);
+  -webkit-animation: shine 5s ease-in-out infinite;
+}
+@-webkit-keyframes shine{
+  0%{
+    margin-top: -300px;
+    
+  }
+  100%{
+    margin-top: 800px;
+  }
 }
 
 
 @media screen and (max-width: 600px) {
-h1 {font-size: 24px; margin-top: 100px;}
+h1 {font-size: 24px; margin-top: 75px;}
 h2 {font-size: 18px;}
+.right,.left {position: relative; margin: 20px auto; text-align: center; right:0; left:0;}
 .abuelos {width: 300px;}
 #con1 {position: relative; margin: 20px auto; top: 0; right: 0;}
 }
