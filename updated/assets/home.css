@@ -97,22 +97,22 @@ body {
 	position: relative;
 }
 
-.bgcolor.one {
+.bgcolor.teal {
 	background-color: teal;
 }
-.bgcolor.two {
+.bgcolor.plum {
 	background-color: plum;
 }
-.bgcolor.three {
+.bgcolor.orange {
 	background-color: orange;
 }
-.bgcolor.four {
+.bgcolor.pink {
 	background-color: pink;
 }
-.bgcolor.five {
+.bgcolor.acid {
 	background-color: #d2d77d;
 }
-.bgcolor.six {
+.bgcolor.purple {
 	background-color: purple;
 }
 
@@ -122,30 +122,32 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+    transition: .3s ease-in-out;
 }
 
 .project.one {
-	background-image: url('thumbnails/amame-thumbnail.jpg');
+	background-image: url('images/thumbnails/amame-thumbnail.jpg');
 }
 
 .project.two {
-	background-image: url('thumbnails/bubbletype_intro.gif');
+	background-image: url('images/thumbnails/bubbletype_intro.gif');
 }
 
 .project.three {
-	background-image: url('thumbnails/icarvetime-thumbnail.jpg');
+	background-image: url('images/thumbnails/icarvetime-thumbnail.jpg');
 }
 
 .project.four {
-	background-image: url('thumbnails/harrison-thumbnail.jpg');
+	background-image: url('images/thumbnails/harrison-thumbnail.jpg');
 }
 
 .project.five {
-	background-image: url('thumbnails/rockbot-thumbnail.jpg');
+	background-image: url('images/thumbnails/rockbot-thumbnail.jpg');
 }
 
 .project.six {
-	background-image: url('thumbnails/epithet-thumbnail.png');
+	background-image: url('images/thumbnails/epithet-thumbnail.png');
 }
 
 
@@ -154,8 +156,6 @@ body {
 .project:hover{
 	background-size: 103%;
 	opacity: 0.7;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-    transition: .3s ease-in-out;
 }
 
 
@@ -167,7 +167,8 @@ body {
 	width: 50%;
 	position: absolute;
 	bottom: 0;
-	/*border-radius: 0 15px 0 0;*/
+	-webkit-transition: .3s ease-in-out; /* Safari */
+	transition: .3s ease-in-out;
 }
 
 h1 {
@@ -193,35 +194,27 @@ h5 {
 /*PROJECT LABELS HOVER EFFECTS-------------------*/
 
 .project.one:hover .title {
-	background-color: teal;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-	transition: .3s ease-in-out;
+	background-color: #d2d77d;
 }
 
 .project.two:hover .title {
 	background-color: plum;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-	transition: .3s ease-in-out;
 }
+
 .project.three:hover .title {
 	background-color: orange;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-	transition: .3s ease-in-out;
 }
+
 .project.four:hover .title {
 	background-color: pink;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-	transition: .3s ease-in-out;
+
 }
 .project.five:hover .title {
-	background-color: #d2d77d;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-	transition: .3s ease-in-out;
+	background-color: teal;
 }
+
 .project.six:hover .title {
 	background-color: purple;
-	-webkit-transition: .3s ease-in-out; /* Safari */
-	transition: .3s ease-in-out;
 }
 
 
