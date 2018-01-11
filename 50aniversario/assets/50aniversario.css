@@ -40,7 +40,7 @@ body {
 
 .abuelos {
   position: relative;
-  margin: 50px auto;
+  margin: 60px auto 0 auto;
  /* outline: #FADCCD solid 1px;*/
   width: 600px;
   overflow: hidden;
@@ -64,8 +64,8 @@ h1 {
 	font-family: Goudy, serif;
   font-style: italic;
 	font-weight: bold;
-	font-size: 36px;
-	margin: 25px auto;
+	font-size: 30px;
+	margin: 20px auto;
 	text-align: center;
   display: block;
   color: #EDE4D2;
@@ -73,7 +73,7 @@ h1 {
 h2 {
   font-family: Goudy, serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 21px;
   color: #EDE4D2;
 }
 
@@ -125,8 +125,10 @@ h2 {
   transform: rotate(-30deg);
   background: -webkit-linear-gradient(top, transparent, rgba(200,200,200,0.2),transparent);
   position: absolute;
+  z-index: 30;
   -webkit-animation: shine 5s ease-in-out infinite;
 }
+
 @-webkit-keyframes shine{
   0%{
     margin-top: -300px;
@@ -137,6 +139,101 @@ h2 {
   }
 }
 
+ /* Style the Image Used to Trigger the Modal */
+.myImg {
+    cursor: pointer;
+    -webkit-transition: .3s; /* Safari */
+  transition: .3s;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.btn-container {
+  width: 450px;
+  margin: 0 auto;
+  height: 30px;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: -40px;
+  opacity: 1;
+  width: 60px;
+  z-index: 75;
+  animation-name: updown;
+  animation-iteration-count:infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+
+  -webkit-animation-name: updown;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes updown {
+  0% {
+    -webkit-transform: translateY(0px);
+  }
+  25% {
+    -webkit-transform: translateY(8px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(-8px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+  }
+}
+
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  opacity: 0.5;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
 
 @media screen and (max-width: 600px) {
 h1 {font-size: 24px;}
@@ -145,6 +242,8 @@ h2 {font-size: 18px;}
 .abuelos {width: 300px;}
 .florish {width: 350px; bottom: -20px;}
 #con1 {position: relative; margin: 0px auto 20px auto; top: 0; right: 0; width:100px;}
+.btn-container {width: 250px;}
+.prev, .next { width: 30px; top:-20px;}
 }
 
 
