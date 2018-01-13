@@ -5,6 +5,7 @@ html,body{
 body {
 	margin: 0px;
 	background-color: white;
+	overflow-x: hidden
 }
 
 * {
@@ -21,6 +22,7 @@ body {
 	float: left;
 	overflow:hidden;
 	position: fixed;
+	z-index: 5;
 }
 
 .sidebar img {
@@ -87,7 +89,6 @@ body {
 	margin-left: 150px;
 	height: 100%;
 	overflow-x: hidden;
-	background-color: black;
 }
 
 .bgcolor {
@@ -181,7 +182,7 @@ h1 {
 	margin: 0;
 }
 
-h5 {
+h6 {
 	color: white;
 	font-family: tenso, sans-serif;
 	font-style: italic;
@@ -216,6 +217,93 @@ h5 {
 .project.six:hover .title {
 	background-color: purple;
 }
+
+
+/*ABOUT SECTION*/
+.white {
+	background-color: white;
+}
+
+.about {
+	margin: 5% 10%;
+	padding-right: 25%;
+	display: block;
+	position: relative;
+	z-index: 5;
+}
+
+h2 {
+	color: black;
+	font-family: tenso, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: left;
+	margin: 0;
+}
+
+h5 {
+	color: black;
+	font-family: tenso, sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 1.5em;
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+
+.joke {
+	background-color: black;
+}
+
+.joke:hover {
+	background-color: white;
+}
+
+#containment-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.draggable{
+	overflow: hidden;
+	width: 75px;
+	cursor: move;
+	z-index: 1000;
+	  animation-name: updown;
+  animation-iteration-count:infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+
+  -webkit-animation-name: updown;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes updown {
+  0% {
+    -webkit-transform: translateY(0px);
+  }
+  25% {
+    -webkit-transform: translateY(8px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(-8px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+  }
+}
+}
+
 
 
 /* MEDIA QUERIES*/
@@ -255,7 +343,10 @@ h5 {
 .bgcolor {height: 200px;}
 .title {width: 55%; padding: 5px;}
 h1 {font-size: 12px;}
-h5 {font-size: 9px;}
+h6 {font-size: 9px;}
+h5 {font-size: 12px;}
+.about {padding-right: 0%}
+.draggable {width: 50px;}
 }
 
 
