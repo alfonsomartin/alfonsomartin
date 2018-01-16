@@ -196,7 +196,6 @@ h4 {
 	font-weight: 300;
 	font-size: 9px;
 	margin: 0;
-	transition: 0.6s ease;
 }
 
 h5 {
@@ -308,10 +307,23 @@ height: calc(100% - 43px);
 	background-color: black;
 	display: block;
 	width: 100%;
-	padding: 10px 10px 20px 10px;
+	padding: 10px;
 }
 
-.nav-projects a h4:hover {
+.nav-projects h5 {
+	text-align: center;
+	line-height: 2em;
+}
+
+.nav-projects h5 a {
+	margin: 5%;
+	text-decoration: none;
+	color: white;
+	transition: 0.6s ease;
+	-webkit-transition: 0.6s ease;
+}
+
+.nav-projects h5 a:hover {
 	background-color: white;
 	color: black;
 }
@@ -333,6 +345,7 @@ height: calc(100% - 43px);
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 
 /* The Modal (background) */
 .modal {
@@ -478,9 +491,9 @@ height: calc(100% - 43px);
 
 @media screen and (max-width: 480px) {	
 .page {height: 200px;}
+h3 {font-size: 9px}
 h5 {font-size: 12px;}
 h6 {font-size: 12px;}
-h4 {font-size: 9px;}
 }
 
 
@@ -496,7 +509,7 @@ h4 {font-size: 9px;}
 
 @media screen and (max-width: 320px) {	
 .page {height: 140px;}
-h3 {font-size: 9px}
+
 
 }
 
