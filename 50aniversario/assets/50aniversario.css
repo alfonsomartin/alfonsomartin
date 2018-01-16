@@ -18,6 +18,13 @@
   z-index: 100;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
 
 img {
   width: 100%;
@@ -371,10 +378,18 @@ h1 {font-size: 24px;}
 h2 {font-size: 18px;}
 .right, .left, .galleryLink {position: relative; margin: 20px auto; text-align: center; right:0; left:0; top:0;}
 .abuelos {width: 300px;}
-.florish {width: 400px; bottom: -10px;}
+.florish {width: 375px; bottom: -5px;}
 #con1 {position: relative; margin: 0px auto 0px auto; top: 0; right: 0; width:100px;}
 .btn-container {width: 250px;}
 .prev, .next { width: 30px; top:-20px;}
+}
+
+@media screen and (max-width: 320px) {
+h1 {font-size: 22px;}
+h2 {font-size: 16px;}
+.right, .left, .galleryLink {position: relative; margin: 15px auto; text-align: center; right:0; left:0; top:0;}
+.abuelos {width: 275px; margin: 10px auto 0 auto}
+.florish {width: 315px; bottom: 5px;}
 }
 
 
