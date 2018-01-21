@@ -219,7 +219,7 @@ h6 {
 }
 
 
-/*ABOUT SECTION*/
+/*ABOUT SECTION--------------------------------*/
 .white {
 	background-color: white;
 }
@@ -252,14 +252,6 @@ h5 {
 	margin: 10px 0 0 0;
 }
 
-.joke {
-	background-color: black;
-}
-
-.joke:hover {
-	background-color: white;
-}
-
 #containment-wrapper {
 	width: 100%;
 	height: 100%;
@@ -270,9 +262,10 @@ h5 {
 
 .draggable{
 	overflow: hidden;
-	width: 75px;
+	width: 65px;
 	cursor: move;
 	z-index: 1000;
+	opacity: 0.5;
 	  animation-name: updown;
   animation-iteration-count:infinite;
   animation-duration: 5s;
@@ -346,7 +339,7 @@ h1 {font-size: 12px;}
 h6 {font-size: 9px;}
 h5 {font-size: 12px;}
 .about {padding-right: 0%}
-.draggable {width: 50px;}
+.draggable {width: 40px; z-index: 0;}
 }
 
 
