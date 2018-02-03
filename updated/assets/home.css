@@ -27,12 +27,12 @@ body {
 
 .sidebar img {
 	width: 100px;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
 }
 
 .sidebar img:hover {
 	opacity: 0.4;
-	-webkit-transition: .2s; /* Safari */
-	transition: .2s;
 }
 
 .links {
@@ -49,6 +49,8 @@ body {
 .links a:link {
 	color: white;
 	text-decoration: none;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
 }
 
 .links a:visited {
@@ -58,8 +60,6 @@ body {
 
 .links a:hover {
 	opacity: 0.4;
-	-webkit-transition: .2s; /* Safari */
-	transition: .2s;
 }
 
 .links a:active {
@@ -246,8 +246,8 @@ h5 {
 	color: black;
 	font-family: tenso, sans-serif;
 	font-weight: 300;
-	font-size: 21px;
-	line-height: 1.5em;
+	font-size: 18px;
+	line-height: 1.4em;
 	text-align: left;
 	margin: 10px 0 0 0;
 }
@@ -265,7 +265,7 @@ h5 {
 	width: 65px;
 	cursor: move;
 	z-index: 1000;
-	opacity: 0.5;
+	opacity: 0.3;
 	  animation-name: updown;
   animation-iteration-count:infinite;
   animation-duration: 5s;
@@ -275,7 +275,6 @@ h5 {
   -webkit-animation-iteration-count:infinite;
   -webkit-animation-duration: 5s;
   -webkit-animation-timing-function: linear;
-
 }
 
 @-webkit-keyframes updown {
@@ -298,8 +297,7 @@ h5 {
 }
 
 
-
-/* MEDIA QUERIES*/
+/* MEDIA QUERIES ------------------------------------*/
 
 @media screen and (max-width: 2800px) {
 
@@ -319,6 +317,7 @@ h5 {
 
 @media screen and (max-width: 760px) {
 .bgcolor {height: 325px;}
+.about {padding-right: 10%}
 }
 
 
@@ -338,7 +337,7 @@ h5 {
 h1 {font-size: 12px;}
 h6 {font-size: 9px;}
 h5 {font-size: 12px;}
-.about {padding-right: 0%}
+.about {padding-right: 5%}
 .draggable {width: 40px; z-index: 0;}
 }
 
@@ -358,5 +357,6 @@ h5 {font-size: 12px;}
 @media screen and (max-width: 320px) {	
 .bgcolor {height: 125px;}
 .title {width: 65%; padding: 5px;}
+.about {padding-right: 0%}
 }
 

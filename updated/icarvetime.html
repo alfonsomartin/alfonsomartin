@@ -18,15 +18,13 @@ top: 0px;
 video::-webkit-media-controls-mute-button {
 display:none;
 }
-.myImg {
-	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
-}
 </style>
 <title>Alfonso Martin</title>
 
 </head>
 
 <body>	
+
 <!-- SIDEBAR -->
 	<div class="sidebar">
 
@@ -35,7 +33,7 @@ display:none;
 		<div class="links">
 			<a class="navlinks" href="index.html">DESIGN</a>
 			<br>
-			<a class="navlinks" href="#">DRAWING</a>
+			<a class="navlinks" href="drawing.html">DRAWING</a>
 			<br>
 			<a class="navlinks" href="about.html">ABOUT</a>
 		</div>
@@ -47,8 +45,10 @@ display:none;
 
 
 
-<!-- CONTENT -->
+<!-- CONTENT START -->
 	<div class="content">
+
+	<!-- HERO IMAGE -->
 		<div class="hero"><img src="assets/images/icarvetime/icarvetime1.JPG"></div>
 
 	<!-- INTRO -->
@@ -63,9 +63,9 @@ display:none;
 
 			</div>
 
-	<!-- IMAGE -->
+	<!-- VIDEO -->
 		<div class="images">
-				<video width="100%" controls muted style="border:solid 1px black;"><source src="assets/images/icarvetime/I Carve Time Like a Jack-O-Lantern.mp4" type="video/mp4" alt="Full Video of I Carve Time Like a Jack-O-Lantern Installation"></video>
+				<video width="100%" controls muted style="border:solid 1px black; display:block;"><source src="assets/images/icarvetime/I Carve Time Like a Jack-O-Lantern.mp4" type="video/mp4" alt="Full Video of I Carve Time Like a Jack-O-Lantern Installation"></video>
 
 				<div class="caption">
 					<h4>Full Video of I Carve Time Like a Jack-O-Lantern Installation</h4>
@@ -88,17 +88,17 @@ display:none;
 				</div>
 
 				<div class="description">
-					<h6>This installation was made within CCA, in a class called Experimentation, instructed by designer and Jeremy Mende. The brief was to interpret and use a given text into an installation. To me, the text I was given seemed like it was about feeling stuck and not having the power to get unstuck. In brainstorming multiple forms I decided to create a video that would showcase a character wondering from in and out of the video. I displayed the text on the character and around them to act as their thoughts. </h6>
+					<h6>This installation was made within CCA, in a class called Experimentation, instructed by designer, Jeremy Mende. The brief was to interpret and use a given text into an installation. To me, the text I was given seemed like it was about feeling stuck and not having the power to get unstuck. In brainstorming multiple forms I decided to create a video that would showcase a character wondering from in and out of the video. I displayed the text on the character and around them to act as their thoughts. </h6>
 				</div>
 			</div>	
 
 <!-- SLIDESHOW -->
-
 	<div class="slideshow-container">
  
 
 	<!-- SLIDE 1 -->
-		<div class="mySlides fade">
+		<div class="mySlides fade" name="slider0">
+			<!-- IMAGE -->
 			<div class="images">
 					<img class="myImg" src="assets/images/icarvetime/icarvetime-still1.JPG" alt="Installation within space">
 
@@ -109,7 +109,7 @@ display:none;
 
 
 	<!-- SLIDE 2 -->	
-		<div class="mySlides fade">
+		<div class="mySlides fade" name="slider0">
 			<!-- IMAGE -->
 			<div class="images">
 				<img class="myImg" src="assets/images/icarvetime/icarvetime-still2.JPG" alt="Installation within space">
@@ -120,7 +120,7 @@ display:none;
 		</div>	
 
 	<!-- SLIDE 3 -->				
-		<div class="mySlides fade">
+		<div class="mySlides fade" name="slider0">
 		    <!-- IMAGE -->
 			<div class="images" >
 				<img class="myImg" src="assets/images/icarvetime/icarvetime-still3.JPG" alt="Installation within space">
@@ -131,7 +131,8 @@ display:none;
 		  </div>
 
 	<!-- SLIDE 4 -->
-		<div class="mySlides fade">
+		<div class="mySlides fade" name="slider0">
+			<!-- IMAGE -->
 			<div class="images">
 				<img class="myImg" src="assets/images/icarvetime/icarvetime-audience.jpg" alt="Installation within space and with an audience audience">
 
@@ -140,36 +141,37 @@ display:none;
 				</div>
 		</div>
 
-
-
-	<!-- Next and previous buttons -->
-		  <a class="prev" onclick="plusSlides(-1)"></a>
-		  <a class="next" onclick="plusSlides(1)"></a>
+		<!-- PREV/NEXT BUTTONS FOR SLIDESHOW -->
+		<a class="prev" onclick="plusSlides(-1,0)"></a>
+		<a class="next" onclick="plusSlides(1,0)"></a>
 		
 	</div>
 
-<!-- The dots/circles -->
-		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span> 
-		  <span class="dot" onclick="currentSlide(2)"></span> 
-		  <span class="dot" onclick="currentSlide(3)"></span>
-		  <span class="dot" onclick="currentSlide(4)"></span>
-		 </div>
+	<!-- DOTS FOR SLIDESHOW -->
+	<div style="text-align:center">
+	<span class="dot" name="dot0" onclick="currentSlide(1,0)"></span> 
+	<span class="dot" name="dot0" onclick="currentSlide(2,0)"></span> 
+	<span class="dot" name="dot0" onclick="currentSlide(3,0)"></span>
+	<span class="dot" name="dot0" onclick="currentSlide(4,0)"></span>
+	</div>
 
-<!-- NEXT/PREVIOUS PROJECTS -->
-			<div class="nav-projects">
-					<a href="bubbletype.html"><h4 style="float:left;padding:2px;">Previous Project: Bubble Type</h4></a>
+	<!-- MORE PROJECTS -->
+	<div class="nav-projects">				
+		<h5>
+		<a href="amame.html">Amame</a>
+		<a href="bubbletype.html">Bubble Type</a>
+		<a href="icarvetime.html">I Carve Time Like...</a>
+		<a href="whoisharrison.html">Who Is Harrison?</a>
+		<a href="rockbot.html">Rockbot</a>
+		</h5>				
+	</div>
 
-					<a href="bubbletype.html"><h4 style="float:right;padding:2px;">Next Project: Who is Harrison?</h4></a>
-			</div>
-
-<!-- MODAL -->
+	<!-- MODAL -->
 			<div id="myModal" class="modal">
   				<span class="close">&times;</span>
  			 	<img class="modal-content" id="img01">
   				<div id="caption"></div>
 			</div>
-
 
 	
 	<!-- END OF CONTENT CONTAINER -->

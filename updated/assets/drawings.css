@@ -1,0 +1,299 @@
+html,body{
+    height: 100%;
+}
+
+body {
+	margin: 0px;
+	background-color: white;
+	overflow-x: hidden
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* NAVIGATION SIDEBAR-------------------*/
+
+.sidebar {
+	width: 150px;
+	height: 100%;
+	background-color: white;
+	padding: 30px 0px 0px 20px;
+	float: left;
+	overflow:hidden;
+	position: fixed;
+	z-index: 5;
+}
+
+.sidebar img {
+	width: 100px;
+}
+
+.sidebar img:hover {
+	opacity: 0.4;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
+}
+
+.links {
+	margin-top: 15px;
+	color: black;
+	font-family: tenso, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: left;
+	line-height: 2em;
+}
+
+.links a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.links a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.links a:hover {
+	opacity: 0.4;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
+}
+
+.links a:active {
+	opacity: 0.4;
+}
+
+.footer {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.copyright {
+	color: black;
+	font-family: tenso, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 1.6em;
+	text-align: left;
+}
+
+
+/* PROJECT MODALS -------------------*/
+
+.content {
+	margin-left: 150px;
+	height: 100%;
+	overflow-x: hidden;
+	text-align: center;
+	background-color: black;
+}
+
+.drawing {
+	position: relative;
+	width: 250px;
+	display: inline-block;
+	-webkit-transition: .3s ease-in-out; /* Safari */
+    transition: .3s ease-in-out;
+}
+
+.drawing:hover {
+	cursor: pointer;
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+	z-index: 5;
+}
+
+.descriptor {
+	width: 425px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	font-family: tenso, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: left;
+	margin: 0;
+}
+
+h4 {
+	color: white;
+	font-family: tenso, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	margin: 0;
+}
+
+.images {
+	position: relative;
+	display: inline-block;
+	margin: 40px 40px 0px 40px;
+}
+
+.images img {
+	position: relative;
+	display: block;
+	background-color: white;
+	width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  opacity: 0.3;
+  color: white;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover {
+	opacity: 1;
+	cursor: w-resize;
+}
+
+.next:hover {
+	opacity: 1;
+	cursor: e-resize;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  width: 75px;
+  margin: 10px 5px 10px 0px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	outline: solid 1px white;
+	outline-offset: 2px; 
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Add Animation - Zoom in the Modal */
+.slideshow-container {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/* MEDIA QUERIES ------------------------------------*/
+
+@media screen and (max-width: 2800px) {
+
+}
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1080px) {
+
+}
+
+
+@media screen and (max-width: 760px) {
+}
+
+
+@media screen and (max-width: 680px) {
+}
+
+
+@media screen and (max-width: 600px) {
+.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
+.sidebar img {width: 75px;}
+.links {font-size: 18px;}
+.copyright {font-size: 7px;}
+.content {margin-left: 100px;}
+.descriptor {width: 275px;}
+.images {margin: 40px 0px 0px 0px;}
+.drawing {width: 225px;}
+}
+
+
+/*iPhone 6,7,8,X*/
+@media screen and (max-width: 420px) {
+
+}
+
+/*Galaxy S5 */
+@media screen and (max-width: 360px) {	
+}
+
+
+/*iPhone 5*/
+@media screen and (max-width: 320px) {	
+
+}
+

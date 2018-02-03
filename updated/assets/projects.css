@@ -97,7 +97,7 @@ body {
 
 .hero img {
 	position: relative;
-	display: inline-block;
+	display: block;
 	background-color: white;
 	width: 100%;
 }
@@ -105,20 +105,20 @@ body {
 .intro {
 	background-color: black;
 	padding: 40px;
-	float: left;
+	display: inline-block;
 }
 
 .header {
 	display:inline-grid;
-/*	background-color: green;*/
-	padding: 0% 5% 0% 20px;
-	width: 40%;
+	margin: 0% 5% 0% 0%;
+	width: 37%;
 	vertical-align: top;
-}
+/*	background-color: green;
+*/}
 
 .moreinfo {
 	background-color: white;
-	padding-top: 40px;
+	padding: 40px 40px 0 40px;
 }
 
 
@@ -132,8 +132,8 @@ body {
 
 .description {
 	display: inline-grid;
-/*	background-color: blue;*/
 	width: 50%;
+	/*background-color: blue;*/
 }
 
 .images {
@@ -144,7 +144,7 @@ body {
 
 .images img {
 	position: relative;
-	display: inline-block;
+	display: block;
 	background-color: white;
 	width: 100%;
 }
@@ -154,7 +154,7 @@ body {
 	padding: .5%;
 	width: 45%;
 	position: absolute;
-	bottom: 4px;
+	bottom: 0px;
 }
 
 
@@ -216,6 +216,10 @@ h6 {
 	line-height: 1.5em;
 	text-align: left;
 	margin: 2px 0 0 0;
+}
+
+p {
+	margin: 0 0 15px 0;
 }
 
 .description a {
@@ -303,6 +307,8 @@ height: calc(100% - 43px);
   background-color: black;
 }
 
+/*Bottom Projects Navigation---------------------------------*/
+
 .nav-projects {
 	background-color: black;
 	display: block;
@@ -313,19 +319,19 @@ height: calc(100% - 43px);
 .nav-projects h5 {
 	text-align: center;
 	line-height: 2em;
+	font-weight: bold;
 }
 
 .nav-projects h5 a {
-	margin: 5%;
+	color: #bbb;
+	margin: 4%;
 	text-decoration: none;
-	color: white;
 	transition: 0.6s ease;
 	-webkit-transition: 0.6s ease;
 }
 
 .nav-projects h5 a:hover {
-	background-color: white;
-	color: black;
+	opacity: 0.4;
 }
 
 /* Fading animation */
@@ -430,51 +436,21 @@ height: calc(100% - 43px);
 }
 
 /* Media Queries*/
-@media screen and (max-width: 2800px) {
 
-}
-
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1920px) {
 
 }
 
 @media screen and (max-width: 1280px) {
-.page {height: 600px;}
-}
-
-@media screen and (max-width: 1080px) {
-.page {height: 475px;}
-}
-
-@media screen and (max-width: 890px) {
-.page {height: 375px;}
-}
-
-@media screen and (max-width: 740px) {
-.page {height: 325px;}
-}
-
-
-@media screen and (max-width: 680px) {
-.page {height: 275px;}
 
 }
 
-
-@media screen and (max-width: 600px) {
-.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
-.sidebar img {width: 75px;}
-.links {font-size: 18px;}
-.copyright {font-size: 7px;}
-.content {margin-left: 100px;}
-.page {height: 200px;}
+@media screen and (max-width: 700px) {
 .header h1,
 .header h2,
 .header h3,
 .header h5,
-.header h6 {
-	text-align: left;
-}
+.header h6 {text-align: left;}
 .intro {padding: 20px;}
 .moreinfo  {padding: 20px;}
 .header {width: 100%;padding: 0px;}
@@ -489,8 +465,16 @@ height: calc(100% - 43px);
 }
 
 
+@media screen and (max-width: 600px) {
+.sidebar {width: 100px; padding: 30px 0px 0px 10px;}
+.sidebar img {width: 75px;}
+.links {font-size: 18px;}
+.copyright {font-size: 7px;}
+.content {margin-left: 100px;}
+}
+
+
 @media screen and (max-width: 480px) {	
-.page {height: 200px;}
 h3 {font-size: 9px}
 h5 {font-size: 12px;}
 h6 {font-size: 12px;}
@@ -498,17 +482,17 @@ h6 {font-size: 12px;}
 
 
 @media screen and (max-width: 414px) {	
-.page {height: 180px;}
+
 
 }
 
 @media screen and (max-width: 370px) {	
-.page {height: 150px;}
+
 }
 
 
 @media screen and (max-width: 320px) {	
-.page {height: 140px;}
+
 
 
 }
