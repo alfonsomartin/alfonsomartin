@@ -110,7 +110,7 @@ body {
 }
 
 .header {
-	display:inline-grid;
+	display:inline-block;
 	margin: 0% 5% 0% 0%;
 	width: 37%;
 	vertical-align: top;
@@ -133,7 +133,7 @@ body {
 }
 
 .description {
-	display: inline-grid;
+	display: inline-block;
 	width: 50%;
 	/*background-color: blue;*/
 }
