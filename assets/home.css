@@ -50,19 +50,21 @@ body {
 	font-size: 24px;
 	text-align: left;
 	line-height: 2em;
-}
-
-.links a:link, 
-.links a:visited {
-	color: white;
 	text-decoration: none;
 	-webkit-transition: .2s; /* Safari */
 	transition: .2s;
 }
+ 
+.links a:visited {
+	color: white;
+}
 
-.links a:hover,
-.links a:active {
+.links a:hover {
 	opacity: 0.4;
+}
+
+.links a.active-link {
+	opacity: 0.4 !important;
 }
 
 
@@ -84,6 +86,7 @@ body {
 	line-height: 1.6em;
 	text-align: left;
 	display: inline-block;
+	text-decoration: none;
 }
 
 .space {
