@@ -114,22 +114,22 @@ body {
 }
 
 .bgcolor.teal {
-	background-color: teal;
+	background-color: #539a9f;
 }
-.bgcolor.plum {
-	background-color: plum;
+.bgcolor.violet {
+	background-color: #ae529f;
 }
 .bgcolor.orange {
-	background-color: orange;
+	background-color: #f28e29;
 }
 .bgcolor.pink {
-	background-color: pink;
+	background-color: #f6b2c1;
 }
 .bgcolor.acid {
-	background-color: #d2d77d;
+	background-color: #d4d97e;
 }
-.bgcolor.purple {
-	background-color: purple;
+.bgcolor.plum {
+	background-color: #c0b5d4;
 }
 
 .project {
@@ -143,19 +143,19 @@ body {
 }
 
 .project.one {
-	background-image: url('images/thumbnails/amame-thumbnail.jpg');
+	background-image: url('images/thumbnails/harrison-thumbnail.jpg');
 }
 
 .project.two {
-	background-image: url('images/thumbnails/bubbletype_intro.gif');
-}
-
-.project.three {
 	background-image: url('images/thumbnails/icarvetime-thumbnail.jpg');
 }
 
+.project.three {
+	background-image: url('images/thumbnails/bubbletype_intro.gif');
+}
+
 .project.four {
-	background-image: url('images/thumbnails/harrison-thumbnail.jpg');
+	background-image: url('images/thumbnails/amame-thumbnail.jpg');
 }
 
 .project.five {
@@ -210,23 +210,23 @@ h6 {
 /*PROJECT LABELS HOVER EFFECTS-------------------*/
 
 .project.one:hover .title {
-	background-color: #d2d77d;
+	background-color: #c0b5d4;
 }
 
 .project.two:hover .title {
-	background-color: plum;
+	background-color: #f28e29;
 }
 
 .project.three:hover .title {
-	background-color: orange;
+	background-color: #d4d97e;
 }
 
 .project.four:hover .title {
-	background-color: pink;
+	background-color: #ae529f;
 
 }
 .project.five:hover .title {
-	background-color: teal;
+	background-color: #539a9f;
 }
 
 .project.six:hover .title {

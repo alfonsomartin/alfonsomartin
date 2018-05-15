@@ -1,0 +1,14 @@
+body {
+  background-color: #ffecde;
+  font-family: Georgia;
+  line-height: 3.8em;
+}
+
+#container {
+  width: 800px;
+  border: 2px green solid;
+  margin: 0 auto;
+  text-align: center;
+}
+
+

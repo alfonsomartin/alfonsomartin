@@ -99,6 +99,7 @@ body {
 .content {
 	margin-left: 150px;
 	height: 100%;
+	padding-top: 45px;
 	overflow-x: hidden;
 	text-align: center;
 }
@@ -106,6 +107,7 @@ body {
 .drawing {
 	position: relative;
 	width: 250px;
+	margin: 10px 10px 0 0;
 	display: inline-block;
 	-webkit-transition: .3s ease-in-out; /* Safari */
     transition: .3s ease-in-out;
@@ -119,12 +121,12 @@ body {
 }
 
 .descriptor {
-	width: 425px;
-	margin: 0 auto;
+	width: 80%;
+	margin: 0 40px;
 }
 
 h1 {
-	color: black;
+	color: white;
 	font-family: tenso, sans-serif;
 	font-style: italic;
 	font-weight: 600;
@@ -151,15 +153,14 @@ h4 {
 .images img {
 	position: relative;
 	display: block;
-	background-color: white;
 	width: 100%;
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 600px;
+    float: left;
 }
 
 /* Next & previous buttons */
@@ -182,11 +183,15 @@ h4 {
 }
 
 /* The dots/bullets/indicators */
+.dot-container {
+	text-align: left;
+	padding-top: 40px;
+}
+
 .dot {
   cursor:pointer;
   width: 75px;
   margin: 10px 5px 10px 0px;
-  background-color: #bbb;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
@@ -284,6 +289,7 @@ h4 {
 .descriptor {width: 275px;}
 .images {margin: 40px 0px 0px 0px;}
 .drawing {width: 225px;}
+.dot-container { text-align: center;}
 }
 
 @media screen and (max-width: 600px) {
@@ -292,7 +298,7 @@ h4 {
 .sidebar img {width: 50px; display: inline-block; margin-right: 8px;}
 .links {margin-top: -15px; display: inline-block; vertical-align: middle; }
 .links a { display: inline-block; font-size: 18px; margin: 0 8px; }
-.content {margin-left: 0px; padding-top:45px;}
+.content {margin-left: 0px; padding-top: 75px;}
 .space {visibility: visible; display: block;}
 .footer { left: 0; bottom: 0; height: 30px; width: 100%; width: 100%; background-color: black; padding: 5px 0 5px 10px;}
 }
