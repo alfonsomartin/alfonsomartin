@@ -1,14 +1,70 @@
 body {
-  background-color: #ffecde;
+  background-color: #fffbf8;
   font-family: Georgia;
-  line-height: 3.8em;
 }
 
 #container {
-  width: 800px;
-  border: 2px green solid;
+  width: 80%;
+  /*border: 2px green solid;*/
   margin: 0 auto;
   text-align: center;
+  display: block;
 }
 
+.nav h4 {
+	font-weight: normal;
+	display: inline;
+	margin: 0px 10px 0px 10px;
+	line-height: 3.8em;
+}
 
+.nav h4 a {
+	color: black;
+	text-decoration: none;
+}
+
+.date {
+	margin: 0;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 3.4em;
+}
+
+.name {
+	width: 575px;
+	display: block;
+	margin: 0 auto;
+}
+
+.pic {
+	width: 600px;
+	display: block;
+	margin: 20px auto;
+}
+
+.flowers {
+	position: fixed;
+	width: 250px;
+}
+
+.one {
+	top: 0;
+	left: 0;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+.two {
+	top: 0;
+	right: 0;
+}
+
+.three {
+	bottom: 0;
+	left: 0;
+}
+
+.four {
+	bottom: 0;
+	right: 0;
+}
