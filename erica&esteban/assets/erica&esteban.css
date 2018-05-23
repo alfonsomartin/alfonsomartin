@@ -4,18 +4,22 @@ body {
 }
 
 #container {
-  width: 80%;
-  /*border: 2px green solid;*/
+  width: 100%;
+/*  border: 2px green solid;*/
   margin: 0 auto;
   text-align: center;
   display: block;
+}
+
+.nav {
+	margin: 20px 0px 10px 0px;
 }
 
 .nav h4 {
 	font-weight: normal;
 	display: inline;
 	margin: 0px 10px 0px 10px;
-	line-height: 3.8em;
+	line-height: 2em;
 }
 
 .nav h4 a {
@@ -23,11 +27,19 @@ body {
 	text-decoration: none;
 }
 
+.nav h4 a:hover {
+	color: #e88e85;
+	cursor: pointer;
+	text-decoration: none;
+	transition:.4s;
+	-webkit-transition:.4s;
+}
+
 .date {
-	margin: 0;
+	margin: 10px 0px 0px 0px;
 	font-weight: normal;
 	font-style: italic;
-	line-height: 3.4em;
+	line-height: 1.8em;
 }
 
 .name {
@@ -44,7 +56,9 @@ body {
 
 .flowers {
 	position: fixed;
-	width: 250px;
+	width: 20%;
+	transition:.4s;
+	-webkit-transition:.4s;
 }
 
 .one {
@@ -68,3 +82,37 @@ body {
 	bottom: 0;
 	right: 0;
 }
+
+@media screen and (max-width: 1920px) {
+.pic{ width: 800px;}
+}
+
+@media screen and (max-width: 1280px) {
+.pic{ width: 600px;}
+}
+
+@media screen and (max-width: 840px) {
+.nav h4 { font-size: 12px;}
+}
+
+@media screen and (max-width: 700px) {
+.nav h4 { display: block;}
+.pic {width: 400px;}
+.name {width: 450px;}
+.date {font-size: 12px;}
+}
+
+@media screen and (max-width: 450px) {
+#container {width: 100%}
+.pic {width: 100%;}
+.name {width:100%;}
+.flowers {width: 35%}
+}
+
+@media screen and (max-width: 350px) {
+
+}
+
+
+
+
