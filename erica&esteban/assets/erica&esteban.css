@@ -1,7 +1,10 @@
 body {
   background-color: #fffbf8;
   font-family: Georgia;
-}
+/*  overflow-x: hidden;
+*/}
+
+
 
 #container {
   width: 100%;
@@ -82,7 +85,7 @@ body {
 	right: 0;
 }
 
-p {
+h5 {
 	width: 60%;
 	line-height: 1.4em;
   margin: 10px auto;
@@ -186,42 +189,30 @@ p {
 }
 
 /*GUEST BOOK----------------------*/
-.guestbook p {
+.guestbook h5 {
   font-weight: normal;
   font-size: 11px;
 }
 
-.commentbox-app {
-  width: 60%;
-  margin: 0px auto 20px auto;
+.fcs-comment-container {
+  margin: 0 auto !important;
+  width: 70% !important;
 }
 
-.remove-all-btn {
-  display: block;
-  margin: 0 auto;
+.fcs-commentbox-header {
+  display: none !important;
 }
 
-.comment-input {
-  width: 100%;
-  resize: none;
-  line-height: 1.4em;
+.fcs-container-commentbox-buttons {
+  display: none !important;
 }
 
-.comment-btn {
-  color: black;
+.fcs_voting_container {
+    display: none !important;
 }
 
-.comment-stream {
-  list-style: none;
-  line-height: 1.4em;
-  font-size: 11px;
-  font-weight: normal;
-  padding: 0px;
-}
-
-li {
-  padding: 10px 0px 20px 0px;
-  border-bottom: 1px black solid;
+.comment-box {
+  margin-top: 30px !important; 
 }
 
 

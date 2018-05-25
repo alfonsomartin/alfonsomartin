@@ -27,43 +27,15 @@
 </div>
 
 <div id="container" class="guestbook">
-<h4>Leave your wishes for the new Mr. and Mrs.</h4><p>*Note* Be aware once you make a post you cannot delete it, similar to if you were actually writing in a guestbook.</p>
+<h5>Leave your wishes for the new Mr. and Mrs.</h4><p>*Note* Be aware once you make a post you cannot delete it, similar to if you were actually writing in a guestbook.</h5>
 </div>
 
-<div class="warning" id="no_go"></div>
-<div class="commentbox-app">
+<div id="container">
 
-    <div class="clearfix">
-      <form id="comment-form">
-
-        <textarea rows="4" cols="50" id="comment-input" class="comment-input" placeholder="Your Name(s) - Then Your Message
-Ex: Alfonso - Congratulations Erica and Esteban!... "></textarea>
-        <br>
-        <input type="submit" value="Post" class="comment-btn">
-      </form>
-    </div>
-    
-    <ul id="comment-stream" class="comment-stream">
-<!-- dummy data:       <li>Hey! <span class="comment-remove">&times;</span></li>
-      <li>Just a thought <span href="" class="comment-remove">&times;</span></li> -->
-    </ul>
-    <button class="remove-all-btn" id="remove-all" type="button">Remove all</button>
+<!-- Begin Comments JavaScript Code --><script type="text/javascript" async>function ajaxpath_5b07b06e7854e(url){return window.location.href == '' ? url : url.replace('&s=','&s=' + escape(window.location.href));}(function(){document.write('<div id="fcs_div_5b07b06e7854e"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_5b07b06e7854e=document.createElement('script');fcs_5b07b06e7854e.type="text/javascript";fcs_5b07b06e7854e.src=ajaxpath_5b07b06e7854e((document.location.protocol=="https:"?"https:":"http:")+"//www.freecommentscript.com/GetComments2.php?p=5b07b06e7854e&s=#!5b07b06e7854e");setTimeout("document.getElementById('fcs_div_5b07b06e7854e').appendChild(fcs_5b07b06e7854e)",1);})();</script><noscript><div><a href="http://www.freecommentscript.com" title="free html user comment box">Free Comment Script</a></div></noscript><!-- End Comments JavaScript Code -->
 
 </div>
 
-
-<script type="text/javascript"> 
-
-function stopRKey(evt) { 
-  var evt = (evt) ? evt : ((event) ? event : null); 
-  var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null); 
-  if ((evt.keyCode == 13) && (node.type=="text"))  {return false;} 
-} 
-
-document.onkeypress = stopRKey; 
-
-</script>
-</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="assets/guestbook.js"></script>
 </body>
