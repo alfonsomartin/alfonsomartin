@@ -88,7 +88,7 @@ p {
 	margin: 0 auto;
 }
 
-
+/*PHOTOS----------------------*/
 .gallery {
   width: 80%;
   margin: 0 auto;
@@ -184,6 +184,8 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*GUEST BOOK----------------------*/
 
 
 @media screen and (max-width: 1920px) {
