@@ -85,7 +85,8 @@ body {
 p {
 	width: 60%;
 	line-height: 1.4em;
-	margin: 0 auto;
+  margin: 10px auto;
+  font-style: italic;
 }
 
 /*PHOTOS----------------------*/
@@ -101,7 +102,6 @@ p {
   width: 250px;
   transition: 0.6s;
   -webkit-transition: 0.6s;
-  background-color: #3E0014;
 }
 
 .myImg:hover {
@@ -186,6 +186,44 @@ p {
 }
 
 /*GUEST BOOK----------------------*/
+.guestbook p {
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.commentbox-app {
+  width: 60%;
+  margin: 0px auto 20px auto;
+}
+
+.remove-all-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.comment-input {
+  width: 100%;
+  resize: none;
+  line-height: 1.4em;
+}
+
+.comment-btn {
+  color: black;
+}
+
+.comment-stream {
+  list-style: none;
+  line-height: 1.4em;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 0px;
+}
+
+li {
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px black solid;
+}
+
 
 
 @media screen and (max-width: 1920px) {

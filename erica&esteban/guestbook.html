@@ -26,52 +26,45 @@
 <img class="name" src="assets/Asset 6.svg">
 </div>
 
-<div id="container">
-<br>
-<h4>GUEST BOOK</h4>
+<div id="container" class="guestbook">
+<h4>Leave your wishes for the new Mr. and Mrs.</h4><p>*Note* Be aware once you make a post you cannot delete it, similar to if you were actually writing in a guestbook.</p>
 </div>
 
-  <form action="" method="POST">
-   <label> Name: 
-    <input type="text" name="Name" class="Input" style="width: 225px" required>
-   </label>
-   <br><br>
-   <label> Comment: <br>
-    <textarea name="Comment" class="Input" style="width: 300px" required></textarea>
-   </label>
-   <br><br>
-   <input type="submit" name="Submit" value="Submit Comment" class="Submit">
-  </form>
+<div class="warning" id="no_go"></div>
+<div class="commentbox-app">
 
-<?php
- 
- if($_POST['Submit']){
-  print "<h1>Your comment has been submitted!</h1>";
+    <div class="clearfix">
+      <form id="comment-form">
 
-  $Name = $_POST['Name'];
-  $Comment = $_POST['Comment'];
+        <textarea rows="4" cols="50" id="comment-input" class="comment-input" placeholder="Your Name(s) - Then Your Message
+Ex: Alfonso - Congratulations Erica and Esteban!... "></textarea>
+        <br>
+        <input type="submit" value="Post" class="comment-btn">
+      </form>
+    </div>
+    
+    <ul id="comment-stream" class="comment-stream">
+<!-- dummy data:       <li>Hey! <span class="comment-remove">&times;</span></li>
+      <li>Just a thought <span href="" class="comment-remove">&times;</span></li> -->
+    </ul>
+    <button class="remove-all-btn" id="remove-all" type="button">Remove all</button>
 
-  #Get old comments
-  $old = fopen("comments.txt", "r+t");
-  $old_comments = fread($old, 1024);
+</div>
 
-  #Delete everything, write down new and old comments
-  $write = fopen("comments.txt", "w+");
-  $string = "<b>".$Name."</b><br>".$Comment."<br>\n".$old_comments;
-  fwrite($write, $string);
-  fclose($write);
-  fclose($old);
- }
 
- #Read comments
- $read = fopen("comments.txt", "r+t");
- echo "<br><br>Comments<hr>".fread($read, 1024);
- fclose($read);
+<script type="text/javascript"> 
 
-?>
+function stopRKey(evt) { 
+  var evt = (evt) ? evt : ((event) ? event : null); 
+  var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null); 
+  if ((evt.keyCode == 13) && (node.type=="text"))  {return false;} 
+} 
 
+document.onkeypress = stopRKey; 
+
+</script>
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src=""></script>
-
+<script type="text/javascript" src="assets/guestbook.js"></script>
 </body>
 </html>
