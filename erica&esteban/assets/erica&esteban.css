@@ -194,6 +194,10 @@ h5 {
   font-size: 11px;
 }
 
+#profile_5b07b06e7854e {
+    display: none !important;
+}
+
 .fcs-comment-container {
   margin: 0 auto !important;
   width: 70% !important;
@@ -212,7 +216,17 @@ h5 {
 }
 
 .comment-box {
-  margin-top: 30px !important; 
+  margin-top: 30px !important;
+  font-family: Georgia !important; 
+}
+
+.comment-box p {
+    font-family: Georgia !important;
+   font-style: italic !important;
+}
+
+.comment-label {
+  font-family: Georgia !important;
 }
 
 
@@ -241,6 +255,7 @@ h5 {
 .pic {width: 100%;}
 .name {width:100%;}
 .flowers {width: 35%}
+.fcs-comment-container {width: 100% !important; margin-bottom: 100px !important; }
 }
 
 @media screen and (max-width: 350px) {
