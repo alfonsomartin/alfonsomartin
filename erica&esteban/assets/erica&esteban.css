@@ -4,8 +4,6 @@ body {
 /*  overflow-x: hidden;
 */}
 
-
-
 #container {
   width: 100%;
 /*  border: 2px green solid;*/
@@ -86,10 +84,27 @@ body {
 }
 
 h5 {
-	width: 60%;
+	width: 65%;
 	line-height: 1.4em;
   margin: 10px auto;
   font-style: italic;
+  font-weight: normal;
+}
+/*DETAILS----------------------*/
+h3 {
+  line-height: 1.45em;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: left;
+}
+
+.details {
+  margin-top: 20px;
+  width: 200px;
+  display: inline-block;
+/*  background-color: pink;*/
+  padding: 10px;
+  vertical-align: top;
 }
 
 /*PHOTOS----------------------*/
@@ -102,7 +117,7 @@ h5 {
 
 .myImg {
   display: inline-block;
-  width: 250px;
+  width: 200px;
   transition: 0.6s;
   -webkit-transition: 0.6s;
 }
@@ -230,13 +245,14 @@ h5 {
 }
 
 
-
+/*MEDIA QUERIES----------------------*/
 @media screen and (max-width: 1920px) {
 .pic{ width: 800px;}
 }
 
 @media screen and (max-width: 1280px) {
 .pic{ width: 550px;}
+h5 { width: 50%; }
 }
 
 @media screen and (max-width: 840px) {
@@ -248,6 +264,7 @@ h5 {
 .pic {width: 400px;}
 .name {width: 450px;}
 .date {font-size: 12px;}
+h5 { width: 65%; }
 }
 
 @media screen and (max-width: 450px) {
@@ -256,6 +273,8 @@ h5 {
 .name {width:100%;}
 .flowers {width: 35%}
 .fcs-comment-container {width: 100% !important; margin-bottom: 100px !important; }
+.myImg {width: 100%;}
+.details {margin-top: 5px;}
 }
 
 @media screen and (max-width: 350px) {
