@@ -52,11 +52,12 @@ body {
 .pic {
 	display: block;
 	margin: 10px auto;
+  text-align: center;
 }
 
 .flowers {
 	position: fixed;
-	width: 20%;
+	width: 15%;
 	transition:.4s;
 	-webkit-transition:.4s;
 }
@@ -100,11 +101,31 @@ h3 {
 
 .details {
   margin-top: 20px;
-  width: 200px;
+  width: 225px;
   display: inline-block;
 /*  background-color: pink;*/
-  padding: 10px;
+  padding: 20px;
   vertical-align: top;
+}
+
+
+.timeline {
+  width: 300px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.timeline h3 {
+    text-align: center;
+}
+
+.timeline table {
+  margin: 0 auto;
+}
+
+.timeline table h3 {
+  text-align: left;
 }
 
 /*PHOTOS----------------------*/
@@ -261,6 +282,7 @@ h5 { width: 50%; }
 
 @media screen and (max-width: 700px) {
 .nav h4 { display: block;}
+.flowers {width: 20%}
 .pic {width: 400px;}
 .name {width: 450px;}
 .date {font-size: 12px;}
@@ -269,9 +291,10 @@ h5 { width: 65%; }
 
 @media screen and (max-width: 450px) {
 #container {width: 100%}
+.phone-space { margin-bottom:125px !important;}
 .pic {width: 100%;}
 .name {width:100%;}
-.flowers {width: 33%}
+.flowers {width: 30%}
 .fcs-comment-container {width: 100% !important; margin-bottom: 100px !important; }
 .myImg {width: 100%;}
 .details {margin-top: 5px;}
