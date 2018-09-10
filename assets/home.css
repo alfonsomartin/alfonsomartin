@@ -22,7 +22,7 @@ body {
 	display: block;
 	position: fixed;
 	z-index: 5;
-	box-shadow: 5px 0px 50px rgba(0,0,0,0.5);
+/*	box-shadow: 5px 0px 50px rgba(0,0,0,0.5);*/
 }
 
 .sidebar img {
@@ -162,9 +162,12 @@ body {
 }
 
 .project.six {
-	background-image: url('images/thumbnails/epithet-thumbnail.png');
+	background-image: url('images/thumbnails/cohort-guidelines-mockup-binder-booklets.jpg');
 }
 
+.project.seven {
+	background-image: url('images/thumbnails/isoccerpath-mobile-responsive-2.jpg');
+}
 
 /*PROJECT HOVER EFFECTS-------------------*/
 
@@ -209,15 +212,19 @@ h6 {
 /*PROJECT LABELS HOVER EFFECTS-------------------*/
 
 .project.one:hover .title {
-	background-color: #c0b5d4;
+	background-color: #d4d97e;
 }
+
+	.project.seven:hover .title {
+		background-color: #d4d97e;
+	}
 
 .project.two:hover .title {
 	background-color: #f28e29;
 }
 
 .project.three:hover .title {
-	background-color: #d4d97e;
+	background-color: #f6b2c1;
 }
 
 .project.four:hover .title {
@@ -228,8 +235,8 @@ h6 {
 	background-color: #539a9f;
 }
 
-.project.six:hover .title {
-	background-color: purple;
+.project.six:hover  .title {
+	background-color: #c0b5d4;
 }
 
 

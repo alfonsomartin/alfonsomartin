@@ -6,7 +6,6 @@ body {
 	margin: 0px;
 	background-color: white;
 	overflow-x: hidden;
-	max-width: 100%;
 	background-color: black;
 }
 
@@ -104,6 +103,7 @@ body {
 	margin-left: 175px;
 	display: block;
 	background-color: white;
+	overflow-x: hidden;
 }
 
 .hero {
@@ -172,7 +172,7 @@ body {
 	position: relative;
 	display: block;
 	background-color: white;
-	width: 100%;
+	max-width: 100%;
 	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
 	-webkit-transition: .3s; /* Safari */
 	transition: .3s;
@@ -429,7 +429,6 @@ p {
 
 
 @media screen and (max-width: 650px) {
-.stacking {margin-top: -140px;}
 }
 
 @media screen and (max-width: 600px) {
