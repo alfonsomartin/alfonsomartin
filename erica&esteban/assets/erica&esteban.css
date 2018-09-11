@@ -239,12 +239,15 @@ color: black;
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
+
 /* Modal Content (Image) */
 .modal-content {
     margin: auto;
     display: block;
-    width: 100%;
+    width: auto;
     max-width: 700px;
+    height: auto;
+    max-height: 550px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -362,6 +365,9 @@ h5 { width: 50%; }
 .name {width: 450px;}
 .date {font-size: 12px;}
 h5 { width: 65%; }
+.modal-content {
+  max-width: 100%;
+}
 }
 
 @media screen and (max-width: 450px) {
