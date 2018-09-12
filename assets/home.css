@@ -248,7 +248,7 @@ h6 {
 
 .about {
 	margin: 5% 10%;
-	padding-right: 25%;
+	padding-right: 30%;
 	display: block;
 	position: relative;
 	z-index: 5;
@@ -268,8 +268,8 @@ h5 {
 	color: black;
 	font-family: tenso, sans-serif;
 	font-weight: 300;
-	font-size: 18px;
-	line-height: 1.4em;
+	font-size: 16px;
+	line-height: 1.6em;
 	text-align: left;
 	margin: 10px 0 0 0;
 }
@@ -362,7 +362,7 @@ h5 {
 .title {width: 55%; padding: 5px 10px}
 h1 {font-size: 12px;}
 h6 {font-size: 9px;}
-h5 {font-size: 12px;}
+h5 {font-size: 14px;}
 .about {padding-right: 5%}
 .draggable {width: 40px; z-index: 0;}
 }
