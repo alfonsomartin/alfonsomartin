@@ -170,6 +170,11 @@ body {
 	background-image: url('images/thumbnails/isoccerpath-mobile-responsive-2.jpg');
 }
 
+
+.project.eight {
+	background-image: url('images/thumbnails/loskuyas-hero-3.jpg');
+}
+
 /*PROJECT HOVER EFFECTS-------------------*/
 
 .project:hover{
@@ -223,6 +228,11 @@ h6 {
 .project.two:hover .title {
 	background-color: #f28e29;
 }
+
+	.project.eight:hover .title {
+		background-color: #f28e29;
+	}
+
 
 .project.three:hover .title {
 	background-color: #f6b2c1;
