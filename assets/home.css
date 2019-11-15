@@ -265,6 +265,12 @@ h6 {
 	z-index: 4;
 }
 
+.social { 
+	width: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
 h2 {
 	color: black;
 	font-family: tenso, sans-serif;
@@ -302,7 +308,7 @@ h5 {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: -100px;
+	top: -50px;
 	left: 0;
 }
 #con-2 {
