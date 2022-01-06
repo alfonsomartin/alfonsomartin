@@ -315,10 +315,10 @@ h5 {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
-	height: 450px;
-	width: 450px;
-	background-image: url('images/about/alfonso.jpg');
-	background-position: center;
+	height: 400px;
+	width: 400px;
+	background-image: url('images/about/alfonso-m.jpeg');
+	background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
