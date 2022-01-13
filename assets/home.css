@@ -389,19 +389,22 @@ h5 {
 
 /* MEDIA QUERIES ------------------------------------*/
 
-@media screen and (max-width: 2800px) {
-
+@media screen and (max-width: 2000px) {
+#con-2 {width: 650px; height: 650px; right: 150px;}
+.about {padding-right: 45%;}
 }
 
-@media screen and (max-width: 2000px) {
-
+@media screen and (max-width: 1400px) {
+#con-2 {width: 500px; height: 500px; right: 30px;}
+.about {padding-right: 30%}
 }
 
 @media screen and (max-width: 1280px) {
+#con-2 {width: 400px; height: 400px;}
 }
 
-@media screen and (max-width: 940px) {
-#con-2 {margin-top: 50px; width: 350px; height: 350px; position: relative; left: 50%; transform: translateX(-50%);}
+@media screen and (max-width: 1000px) {
+#con-2 {margin-top: 50px; margin-bottom: 50px; width: 350px; height: 350px; position: relative; left: 50%; transform: translateX(-50%);}
 #containment-wrapper {top:-50;}
 .about {padding-right: 10%}
 }
