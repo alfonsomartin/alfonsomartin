@@ -390,11 +390,11 @@ h5 {
 /* MEDIA QUERIES ------------------------------------*/
 
 @media screen and (max-width: 2000px) {
-#con-2 {width: 650px; height: 650px; right: 150px;}
+#con-2 {width: 650px; height: 650px; right: 125px;}
 .about {padding-right: 45%;}
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1680px) {
 #con-2 {width: 500px; height: 500px; right: 30px;}
 .about {padding-right: 30%}
 }
