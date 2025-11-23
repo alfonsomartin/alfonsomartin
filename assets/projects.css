@@ -129,19 +129,19 @@ body {
 	width: 100%;
 }
 
-.header {
-	display:inline-block;
-	margin: 0% 30px 0% 0%;
-	width: 45%;
-	vertical-align: top;
-/*	background-color: green;
-*/}
-
 .moreinfo {
 	background-color: white;
 	padding: 75px 50px 0 50px;
 }
 
+.header {
+	display:inline-block;
+	margin: 0% 3% 0% 0%;
+	width: 48.5%;
+	vertical-align: top;
+	padding-left: 4%;
+/*	background-color: green;
+*/}
 
 .header h1,
 .header h2,
@@ -158,11 +158,17 @@ body {
 
 .description {
 	display: inline-block;
-	width: 45%;
+	width: 48.5%;
+	padding-right: 4%;
 	/*background-color: blue;*/
 }
 
 .description .images {
+	margin: 0px;
+}
+
+.longvid {
+	width: 75%;
 }
 
 .center-description{
@@ -181,7 +187,7 @@ body {
 	position: relative;
 	display: block;
 	background-color: white;
-	max-width: 100%;
+	width: 100%;
 	box-shadow: 0px 0px 40px rgba(0,0,0,0.3);
 	-webkit-transition: .3s; /* Safari */
 	transition: .3s;
@@ -281,8 +287,10 @@ p {
 	/*box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);*/
 }
 
-/*.images img:hover {opacity: 0.8;}
-*/
+.images img:hover {
+	opacity: 0.5;
+}
+
 
 /*Bottom Projects Navigation---------------------------------*/
 
@@ -427,15 +435,17 @@ p {
 .header h3,
 .header h5,
 .header h6 {text-align: left;}
-.header .images {margin: 0px auto !important; max-width: 400px; float: none;}
+.header .images {float: none; margin-bottom: 30px;}
 .intro {padding: 20px;}
 .moreinfo  {padding: 20px;}
+.moreinfo .images {margin:0px 0px 10px 0px !important}
 .header {width: 100%;padding: 0px;}
-.description {width: 100%; margin-top: 10px;}
+.description {width: 100%; margin-top: 10px; padding: 0px;}
 .images { margin: 20px 10px 0px 10px !important;}
 .images2 { margin: 20px 10px 0px 10px;}
 .caption {left: 0px; width: 75%;}
 .center-description{ width: 100%;}
+.longvid {width: auto;}
 .nav-projects{ margin-top: 20px;}
 }
 

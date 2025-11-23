@@ -113,24 +113,23 @@ body {
 	position: relative;
 }
 
-.bgcolor.teal {
-	background-color: #539a9f;
-}
-.bgcolor.violet {
-	background-color: #ae529f;
-}
-.bgcolor.orange {
-	background-color: #f28e29;
-}
-.bgcolor.pink {
-	background-color: #f6b2c1;
-}
-.bgcolor.acid {
-	background-color: #d4d97e;
-}
-.bgcolor.plum {
-	background-color: #c0b5d4;
-}
+.bgcolor.teal {background-color: #539a9f;}
+.bgcolor.violet {background-color: #ae529f;}
+.bgcolor.orange {background-color: #f28e29;}
+.bgcolor.pink {background-color: #f6b2c1;}
+.bgcolor.acid {background-color: #d4d97e;}
+.bgcolor.plum {background-color: #c0b5d4;}
+
+/*PROJECT LABELS HOVER EFFECTS-------------------*/
+
+.project.one:hover .title {background-color: #d4d97e;}
+.project.seven:hover .title {background-color: #d4d97e;}
+.project.two:hover .title {background-color: #f6b2c1;}
+.project.eight:hover .title {background-color: #f28e29;}
+.project.three:hover .title {background-color: #f6b2c1;}
+.project.four:hover .title {background-color: #ae529f;}
+.project.five:hover .title {background-color: #539a9f;}
+.project.six:hover  .title {background-color: #c0b5d4;}
 
 .project {
 	width: 100%;
@@ -147,7 +146,7 @@ body {
 }
 
 .project.two {
-	background-image: url('images/thumbnails/icarvetime-thumbnail.jpg');
+	background-image: url('images/thumbnails/carnaval-sf-thumbnail.jpg');
 }
 
 .project.three {
@@ -155,7 +154,7 @@ body {
 }
 
 .project.four {
-	background-image: url('images/thumbnails/amame-thumbnail.jpg');
+	background-image: url('images/thumbnails/qlt-thumbnail.jpg');
 }
 
 .project.five {
@@ -213,41 +212,6 @@ h6 {
 	font-size: 12px;
 	text-align: left;
 	margin: 2px 0 0 0;
-}
-
-/*PROJECT LABELS HOVER EFFECTS-------------------*/
-
-.project.one:hover .title {
-	background-color: #d4d97e;
-}
-
-	.project.seven:hover .title {
-		background-color: #d4d97e;
-	}
-
-.project.two:hover .title {
-	background-color: #f28e29;
-}
-
-	.project.eight:hover .title {
-		background-color: #f28e29;
-	}
-
-
-.project.three:hover .title {
-	background-color: #f6b2c1;
-}
-
-.project.four:hover .title {
-	background-color: #ae529f;
-
-}
-.project.five:hover .title {
-	background-color: #539a9f;
-}
-
-.project.six:hover  .title {
-	background-color: #c0b5d4;
 }
 
 

@@ -1,6 +1,6 @@
 var imgArray = [];
-var theHeight = 400;
-var theWidth = 400;
+var theHeight = 500;
+var theWidth = 500;
 
 $(document).ready(function(e) {
     $("img.draggable").each(function(index, element) {
